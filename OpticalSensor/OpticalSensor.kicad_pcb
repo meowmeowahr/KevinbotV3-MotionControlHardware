@@ -213,6 +213,19 @@
 				)
 			)
 		)
+		(property "Part" "SM03B-SRSS-TB"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e9e1dd2-a7e0-4e29-bf37-1a0fa3f75c37")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??-1MP*")
 		(path "/686485ac-c334-4532-9938-bfeaefadbdb8")
 		(sheetname "Root")
@@ -669,6 +682,19 @@
 				)
 			)
 		)
+		(property "Part" "ERJ-2RKF3300X"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "902c93f9-ee97-4bf0-8ec2-db4d5de0394c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8399d216-cc4a-48f9-bdf6-dce38d0f9eb0")
 		(sheetname "Root")
@@ -889,6 +915,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ff41f41d-6383-4dd8-bf8c-01ae6eb91c31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "ERJ-2RKF1002X"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "234c9c21-b938-4ec4-bc8e-b16307e55a65")
 			(effects
 				(font
 					(size 1 1)
@@ -1434,6 +1473,19 @@
 				)
 			)
 		)
+		(property "Part" "ERJ-2RKF2000X"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d7a4ae7-7804-4d68-ac97-baf8e8d9d7a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/759ae68f-5958-4c1a-a507-295d32900e87")
 		(sheetname "Root")
@@ -1661,6 +1713,19 @@
 				)
 			)
 		)
+		(property "Partq" "ERJ-2RKF1200X"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "171ac6a5-609d-4b63-a969-8daedbb8f5a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fca5c227-47ff-4f5b-8507-f8d2b79d38b4")
 		(sheetname "Root")
@@ -1870,12 +1935,12 @@
 				)
 			)
 		)
-		(property "LCSC" "C131286"
+		(property "Part" "QBLP600-RIB"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c7305fc4-49a9-4f6f-bdf3-7b9037457c44")
+			(uuid "5f188cc3-9f25-428a-ad08-7fa59a2782d9")
 			(effects
 				(font
 					(size 1 1)
@@ -2122,6 +2187,19 @@
 				)
 			)
 		)
+		(property "Part" "ERJ-2RKF5602X"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "700aee42-901a-4314-862c-a04de8c8926e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/eadc42a4-9e6a-442c-a774-a2de152f2ba0")
 		(sheetname "Root")
@@ -2342,6 +2420,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "561e2032-ec86-4347-9296-593373582f11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "BAT54KFILM"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59aace1e-6c7d-4b32-b1f2-afbcf15abe37")
 			(effects
 				(font
 					(size 1 1)
@@ -2785,6 +2876,19 @@
 				)
 			)
 		)
+		(property "Part" "ERJ-2RKF1002X"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa3b7a40-1043-43a6-9a1d-7056a95b41a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3f3105ce-4b6e-406a-8b59-2e239e296cf2")
 		(sheetname "Root")
@@ -3002,6 +3106,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3a802fb2-a23c-4a17-86ee-e065251c31ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "T2N7002AK,LM"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41e6e571-1ed6-41c6-a4cd-2fa0b8490ae1")
 			(effects
 				(font
 					(size 1 1)
@@ -3771,6 +3888,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b7c0f8b2-e80a-4159-bf8d-46b462757b9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part" "EE-SX1103"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "069eb7c3-08de-4047-89cc-e8e9e9d3c287")
 			(effects
 				(font
 					(size 1 1)

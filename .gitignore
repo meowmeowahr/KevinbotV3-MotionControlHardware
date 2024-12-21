@@ -33,3 +33,6 @@ fp-info-cache
 # JLCPCB Output
 production/
 fabrication-toolkit-options.json
+
+# Interactive BOM
+ibom.html
