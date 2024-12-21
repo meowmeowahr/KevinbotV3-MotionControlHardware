@@ -2123,6 +2123,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" " C414854"
+			(at 147.32 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f19e7837-2f5a-497d-9800-2b89da6c8ab8")
 		)
@@ -2133,73 +2142,6 @@
 			(project ""
 				(path "/c3d09ac2-1481-485c-bab2-9a255faeb2fa"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 161.29 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c25e1b1-a48a-42f1-b3e5-f4a4cfca95c3")
-		(property "Reference" "R6"
-			(at 161.29 78.994 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120R"
-			(at 161.29 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 161.29 83.058 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 161.29 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "44fbfde9-6c4f-4561-83d8-28810e76d32b")
-		)
-		(pin "2"
-			(uuid "dcab79e6-eff3-4842-b0f6-75fe96adaad5")
-		)
-		(instances
-			(project "OpticalSensor"
-				(path "/c3d09ac2-1481-485c-bab2-9a255faeb2fa"
-					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2390,6 +2332,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C283259"
+			(at 190.5 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "49e8aec9-5144-4b46-863c-619df66f3a45")
 		)
@@ -2527,6 +2478,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C160403"
+			(at 222.25 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5c38d59f-f713-4123-b27d-9a83297a1d73")
 		)
@@ -2598,6 +2558,15 @@
 			)
 		)
 		(property "Description" "60V Vds, 0.2A Id, N-Channel MOSFET, SOT-23"
+			(at 161.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5224226"
 			(at 161.29 102.87 0)
 			(effects
 				(font
@@ -2691,6 +2660,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 161.29 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "759ae68f-5958-4c1a-a507-295d32900e87")
+		(property "Reference" "R6"
+			(at 161.29 73.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200R"
+			(at 161.29 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 161.29 77.978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 161.29 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C2759465"
+			(at 161.29 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc6caf62-3f80-4a1d-8d58-a92ec6881376")
+		)
+		(pin "2"
+			(uuid "f38a0368-f8eb-4e1f-9f9a-23e8430efef3")
+		)
+		(instances
+			(project "OpticalSensor"
+				(path "/c3d09ac2-1481-485c-bab2-9a255faeb2fa"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_Dual_AKAK")
 		(at 172.72 78.74 0)
 		(unit 1)
@@ -2735,6 +2780,15 @@
 			)
 		)
 		(property "Description" "Dual LED, cathodes on pins 2 and 4"
+			(at 172.72 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C131286"
 			(at 172.72 78.74 0)
 			(effects
 				(font
@@ -2882,6 +2936,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" " C2759496"
+			(at 125.73 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "992e5535-ac25-45a2-8d44-3352db33d2c8")
 		)
@@ -2966,73 +3029,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 161.29 76.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9877ded6-2a20-4cf7-b9b5-0d29423aab2a")
-		(property "Reference" "R5"
-			(at 161.29 73.914 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120R"
-			(at 161.29 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 161.29 77.978 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 161.29 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5bd3f93d-7f80-4222-bf6f-d5676dd1ad5f")
-		)
-		(pin "2"
-			(uuid "68f58c07-38f9-488f-b05c-a3f9174040a0")
-		)
-		(instances
-			(project "OpticalSensor"
-				(path "/c3d09ac2-1481-485c-bab2-9a255faeb2fa"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 167.64 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3078,6 +3074,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 167.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C414854"
+			(at 167.64 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3148,6 +3153,15 @@
 			)
 		)
 		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, DIP-4"
+			(at 137.16 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2931100"
 			(at 137.16 105.41 0)
 			(effects
 				(font
@@ -3494,6 +3508,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" " C131604"
+			(at 204.47 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2ea45c36-937a-4a2f-b628-7638535c19e4")
 		)
@@ -3504,6 +3527,82 @@
 			(project ""
 				(path "/c3d09ac2-1481-485c-bab2-9a255faeb2fa"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 161.29 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fca5c227-47ff-4f5b-8507-f8d2b79d38b4")
+		(property "Reference" "R5"
+			(at 161.29 78.994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120R"
+			(at 161.29 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 161.29 83.058 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C159875"
+			(at 161.29 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c188fe82-a86c-49d3-8e4e-0ca9164922d0")
+		)
+		(pin "2"
+			(uuid "064cc019-7519-457e-9616-6f204fe97730")
+		)
+		(instances
+			(project "OpticalSensor"
+				(path "/c3d09ac2-1481-485c-bab2-9a255faeb2fa"
+					(reference "R5")
 					(unit 1)
 				)
 			)
