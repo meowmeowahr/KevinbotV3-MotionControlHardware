@@ -1,10 +1,10 @@
-(footprint "LED-ARRAY-SMD_4P-L1.6-W1.3-BR-FD"
+(footprint "QBLP600-RIB"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -4.42 0)
+		(at 0 -2 0)
 		(layer "F.SilkS")
 		(uuid "c52228e9-b0a2-484f-8495-8c598758375d")
 		(effects
@@ -14,8 +14,8 @@
 			)
 		)
 	)
-	(property "Value" "LED-ARRAY-SMD_4P-L1.6-W1.3-BR-FD"
-		(at 0 4.42 0)
+	(property "Value" "QBLP600-RIB"
+		(at 0 2 0)
 		(layer "F.Fab")
 		(uuid "b144d701-809f-4bf4-b69e-6a7580eed6e0")
 		(effects
@@ -63,8 +63,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.25 -0.95)
-		(end -1.25 0.95)
+		(start -1.25 -1.11)
+		(end -1.25 0.8)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -73,8 +73,8 @@
 		(uuid "3a94b12f-3fcd-4213-99de-4fb6f0b6aa15")
 	)
 	(fp_line
-		(start -1.25 -0.95)
-		(end 1.25 -0.95)
+		(start -1.25 -1.11)
+		(end 1.75 -1.11)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -83,8 +83,8 @@
 		(uuid "630d9540-fcca-4bda-a065-e3278cef5e18")
 	)
 	(fp_line
-		(start -1.25 0.95)
-		(end 1.25 0.95)
+		(start -1.25 0.8)
+		(end 1.75 0.8)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -93,14 +93,45 @@
 		(uuid "76692669-e28b-4c9c-a1b7-f9f86d81870d")
 	)
 	(fp_line
-		(start 1.25 -0.95)
-		(end 1.25 0.95)
+		(start 0.25 -1.11)
+		(end 0.25 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6989ecba-ac40-4f1e-a731-429285fbc31a")
+	)
+	(fp_line
+		(start 0.25 -0.155)
+		(end 0.5 -0.155)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8133e722-6f70-485a-a757-5e340c951b15")
+	)
+	(fp_line
+		(start 1.75 -1.11)
+		(end 1.75 0.8)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "5493009b-be6e-41a4-9f1e-4758192639af")
+	)
+	(fp_circle
+		(center 1.3 -0.155)
+		(end 1.4 -0.155)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "d9fe8fe6-8433-4481-b294-d7d3283062d1")
 	)
 	(fp_circle
 		(center 0.8 0.65)
@@ -114,7 +145,7 @@
 		(uuid "d7acd480-6581-4a2b-adf7-0f4417b90b31")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 3.5 0)
 		(layer "F.Fab")
 		(uuid "a149032e-4e42-4040-8faf-3bea6539db30")
 		(effects
@@ -125,32 +156,44 @@
 		)
 	)
 	(pad "1" smd rect
-		(at 0.7 0.42)
-		(size 0.7 0.65)
+		(at -0.625 -0.655)
+		(size 0.85 0.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "d6677e12-02e2-44ef-9c2a-397d5d4e5402")
 	)
 	(pad "2" smd rect
-		(at -0.7 0.42)
-		(size 0.7 0.65)
+		(at 1.125 -0.655)
+		(size 0.85 0.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "e64f0a4b-459e-4a92-a8cc-637f3f600a19")
 	)
 	(pad "3" smd rect
-		(at 0.7 -0.42)
-		(size 0.7 0.65)
+		(at -0.625 0.345)
+		(size 0.85 0.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "920d1fa4-eeb6-466b-8bb5-b1b38e055f63")
 	)
 	(pad "4" smd rect
-		(at -0.7 -0.42)
-		(size 0.7 0.65)
+		(at 1.125 0.345)
+		(size 0.85 0.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "734998e1-b128-4c0c-8e5e-6fd97cc150e7")
 	)
-	(model "easyeda2kicad.3dshapes/LED-ARRAY-SMD_4P-L1.6-W1.3-H0.4-P0.65.wrl"
+	(model "${KIPRJMOD}/easyeda2kicad.3dshapes/LED-SMD-4P_L1.6-W1.6-H0.4-LS1.6.step"
+		(hide yes)
 		(offset
-			(xyz 0 -0 -0)
+			(xyz 0.25 0.15 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/easyeda2kicad.3dshapes/LED-SMD-4P_L1.6-W1.6-H0.4-LS1.6.wrl"
+		(offset
+			(xyz 0.25 0.15 0)
 		)
 		(scale
 			(xyz 1 1 1)

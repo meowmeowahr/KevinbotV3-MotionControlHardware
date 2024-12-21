@@ -2661,7 +2661,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 161.29 76.2 90)
+		(at 161.29 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2669,7 +2669,7 @@
 		(dnp no)
 		(uuid "759ae68f-5958-4c1a-a507-295d32900e87")
 		(property "Reference" "R6"
-			(at 161.29 73.914 90)
+			(at 161.29 78.994 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2677,7 +2677,7 @@
 			)
 		)
 		(property "Value" "200R"
-			(at 161.29 76.2 90)
+			(at 161.29 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2685,7 +2685,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 161.29 77.978 90)
+			(at 161.29 83.058 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2694,7 +2694,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 76.2 0)
+			(at 161.29 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2703,7 +2703,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 161.29 76.2 0)
+			(at 161.29 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2712,7 +2712,7 @@
 			)
 		)
 		(property "LCSC" " C2759465"
-			(at 161.29 76.2 90)
+			(at 161.29 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2761,7 +2761,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-ARRAY-SMD_4P-L1.6-W1.3-BR-FD"
+		(property "Footprint" "Lighting:QBLP600-RIB"
 			(at 173.482 78.74 0)
 			(effects
 				(font
@@ -3534,7 +3534,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 161.29 81.28 90)
+		(at 161.29 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3542,7 +3542,7 @@
 		(dnp no)
 		(uuid "fca5c227-47ff-4f5b-8507-f8d2b79d38b4")
 		(property "Reference" "R5"
-			(at 161.29 78.994 90)
+			(at 161.29 73.914 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3550,7 +3550,7 @@
 			)
 		)
 		(property "Value" "120R"
-			(at 161.29 81.28 90)
+			(at 161.29 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3558,7 +3558,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 161.29 83.058 90)
+			(at 161.29 77.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3567,7 +3567,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 81.28 0)
+			(at 161.29 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3576,7 +3576,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 161.29 81.28 0)
+			(at 161.29 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3585,7 +3585,7 @@
 			)
 		)
 		(property "LCSC" "C159875"
-			(at 161.29 81.28 90)
+			(at 161.29 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)

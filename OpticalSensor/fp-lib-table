@@ -2,5 +2,5 @@
   (version 7)
   (lib (name "OmronSensors")(type "KiCad")(uri "${KIPRJMOD}/OmronSensors.pretty")(options "")(descr ""))
   (lib (name "Logo")(type "KiCad")(uri "${KIPRJMOD}/Logo.pretty")(options "")(descr ""))
-  (lib (name "easyeda2kicad")(type "KiCad")(uri "${KIPRJMOD}/easyeda2kicad.pretty")(options "")(descr ""))
+  (lib (name "Lighting")(type "KiCad")(uri "${KIPRJMOD}/Lighting.pretty")(options "")(descr ""))
 )
