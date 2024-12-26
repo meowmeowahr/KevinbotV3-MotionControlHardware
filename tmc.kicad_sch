@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "0339f085-1693-4fc5-a5b0-dd3b05558da7")
+	(uuid "a0eeeb4b-2bb8-4ea6-9bc3-1eaa0fc42ab9")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x04"
@@ -4574,15 +4574,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "08e4588d-7c9e-44e7-9668-8bf90fd6c21a")
+			(uuid "8d4295e4-7248-42be-9c48-546571a38c6c")
 		)
 		(pin "2"
-			(uuid "ae1ffb0f-5c59-49d8-a359-15ce1f2ab276")
+			(uuid "e4ef5735-75eb-4a8f-923e-d94dc0d8cddd")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "R33")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "R12")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -4646,24 +4658,36 @@
 			)
 		)
 		(pin "3"
-			(uuid "16c5a209-828f-4fc8-bd3a-534598452944")
+			(uuid "3dd669cf-fe7c-441d-953c-9d2c8e607257")
 		)
 		(pin "5"
-			(uuid "f379f39e-1360-4264-b6a5-c130532068a3")
+			(uuid "7f79cf65-3bb4-44ad-8e22-13b3730913e9")
 		)
 		(pin "2"
-			(uuid "00385452-919f-4971-a575-c8f7dbd4b87b")
+			(uuid "73b8b526-65bc-46a7-9ade-6b0dfa0321dc")
 		)
 		(pin "4"
-			(uuid "b51f4c3c-1c71-44cd-88ce-185089b69cf7")
+			(uuid "0612d657-5280-4e26-b92c-515237e2d903")
 		)
 		(pin "1"
-			(uuid "5935e321-caec-4714-9763-98e80683a10e")
+			(uuid "69fe4527-bb2e-417f-b646-1c95b0d2d58c")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "Q30")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "Q6")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "Q14")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "Q22")
 					(unit 1)
 				)
 			)
@@ -4733,15 +4757,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "03b1fd55-fa61-47ac-b88a-244e878025e2")
+			(uuid "c2eb0470-48da-4e73-96af-4cd0f62ab461")
 		)
 		(pin "1"
-			(uuid "7926e444-a687-4faa-adcc-23b73ff27282")
+			(uuid "c9ef150f-8c10-4fb5-8d15-91c01291bc1d")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "C65")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "C23")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "C37")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -4803,21 +4839,33 @@
 			)
 		)
 		(pin "1"
-			(uuid "ed6f288b-84ec-43bd-8cb7-81b9e290118f")
+			(uuid "d7e40068-ed03-42d9-a6e8-4d0984c26f55")
 		)
 		(pin "3"
-			(uuid "70317970-98ec-4e29-9477-739f5e57783f")
+			(uuid "33690c67-8e14-45fa-a5b5-c034618eb60c")
 		)
 		(pin "2"
-			(uuid "95f00e6d-bf87-4e11-9a90-a273c1af7e2c")
+			(uuid "f8549355-2e86-4163-931b-79372bb5a94d")
 		)
 		(pin "4"
-			(uuid "402a475d-385b-42e3-8e76-2192bf75b954")
+			(uuid "9527bdf2-ec95-4b70-baa7-b58d20dd1b6a")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "D10")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "D7")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "D8")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -4887,15 +4935,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "7713b6c7-bbc1-45f8-ba15-d24df8f17bb6")
+			(uuid "17cf9954-0f80-45e3-a29e-850b868fffbc")
 		)
 		(pin "1"
-			(uuid "7e650289-a497-4c93-9aea-8cab02098cd1")
+			(uuid "069cd67b-6968-4743-821e-381dbb6f1525")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "C64")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "C22")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "C36")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -4960,24 +5020,36 @@
 			)
 		)
 		(pin "3"
-			(uuid "cf2c3ad2-19cc-4525-85d9-a90f4684b3f2")
+			(uuid "acbaf379-2c9d-4c0d-87c5-1d249a5e1cc6")
 		)
 		(pin "5"
-			(uuid "517ea7a3-b893-44e2-9a10-e2d15cd86adc")
+			(uuid "8241e1f3-9315-427c-a4ba-76c0a50fb6ce")
 		)
 		(pin "2"
-			(uuid "d2ccc23e-0afb-4b5c-ae73-d157b8ea302a")
+			(uuid "bd37e1dd-9ddf-4c9d-8589-e31027448cd7")
 		)
 		(pin "4"
-			(uuid "87291e8c-68da-405c-8845-90551989acff")
+			(uuid "7031bdb4-6f9f-452b-b789-461d0773dc5d")
 		)
 		(pin "1"
-			(uuid "99ac2b65-996c-405a-8bf6-e92fd41551e3")
+			(uuid "3ed28d21-29d8-47ab-9434-a50d2bc3cbdb")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "Q28")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "Q4")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "Q12")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "Q20")
 					(unit 1)
 				)
 			)
@@ -5037,15 +5109,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "159ed0bb-769b-4815-9031-f85dd3f7d7c6")
+			(uuid "349bbabb-6aa9-48bf-ae98-2f78ed4ddbe2")
 		)
 		(pin "1"
-			(uuid "2c187912-3edf-4266-b54c-5bcffe7dd84f")
+			(uuid "87c68c8c-dcb8-497f-aa6b-a0deda352e05")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "JP13")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "JP2")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "JP7")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "JP10")
 					(unit 1)
 				)
 			)
@@ -5110,24 +5194,36 @@
 			)
 		)
 		(pin "3"
-			(uuid "dee67496-96ac-471c-81c2-d5bd872b61ce")
+			(uuid "203d916e-5fe6-4783-b5b2-8ce4155524dc")
 		)
 		(pin "5"
-			(uuid "6a4d5f18-c9aa-41c1-a8ab-5e503c994599")
+			(uuid "e159609a-63c5-4e96-972b-5b752d0f83d4")
 		)
 		(pin "2"
-			(uuid "78825721-cd80-41fe-9852-3a2002c906b0")
+			(uuid "af033830-5c23-4985-9a3b-270871035a86")
 		)
 		(pin "4"
-			(uuid "c6b067fa-3543-45a9-813c-8ce31cedb7e3")
+			(uuid "19c91e82-d324-413c-a006-6507d33a7748")
 		)
 		(pin "1"
-			(uuid "2afa9c4a-1e79-4b24-8dfe-feb99855c70b")
+			(uuid "408bddfe-63e0-4794-b986-18e1c36d1d02")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "Q33")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "Q9")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "Q17")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "Q25")
 					(unit 1)
 				)
 			)
@@ -5197,15 +5293,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "0b0af0c6-7e60-4a43-a5db-a73ce617b879")
+			(uuid "4739f9ae-cace-4fa0-9364-76703f5f2a2a")
 		)
 		(pin "1"
-			(uuid "de689439-7be5-442a-9b03-92752780590a")
+			(uuid "5a6bd536-6510-42c1-98e9-f2055af0c8fa")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "C61")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "C19")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "C33")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -5275,15 +5383,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "52f1cbb3-c113-4015-9f1d-e2f605518d4f")
+			(uuid "3df2ed0d-12c4-45ee-b725-af9bb0f9964e")
 		)
 		(pin "1"
-			(uuid "1549f86f-5308-453c-8a91-7c9d273363b0")
+			(uuid "bd6ec292-9ce9-4d20-b880-a0ff9c7da7d6")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "C66")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "C24")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "C38")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -5353,15 +5473,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "d6c03e30-807b-4ffb-81c9-0c42cb0a6198")
+			(uuid "16a5242e-87c5-4a0b-8b19-30888389976c")
 		)
 		(pin "1"
-			(uuid "81c20a2a-0788-45c0-b1af-fd9281f2b03d")
+			(uuid "3044d3a9-12b4-4408-b44a-4e1f273e66ff")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "C60")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "C18")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "C32")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -5426,24 +5558,36 @@
 			)
 		)
 		(pin "3"
-			(uuid "001f9c03-a65b-47f2-8034-71a4dd954676")
+			(uuid "7073ea79-ab75-444e-b5cb-d457df1c98f8")
 		)
 		(pin "5"
-			(uuid "8e015f70-898b-4e72-a4e2-f7d67a24421f")
+			(uuid "259f3a98-19c0-4bcb-bda7-c4c2a3f530d6")
 		)
 		(pin "2"
-			(uuid "340ce12a-8a2d-456c-a2dd-7b959f4822ee")
+			(uuid "8ed5e0b3-ba21-4169-8d32-d8e073ce7cbf")
 		)
 		(pin "4"
-			(uuid "dbfdca97-4ecc-4b4a-b177-a5c206b4c084")
+			(uuid "3bf37f1a-c83b-40ce-b8b4-b00b7ab1cb41")
 		)
 		(pin "1"
-			(uuid "1e632f92-9245-4152-949b-5f9dc0b0ae00")
+			(uuid "5d0dd029-d11c-4889-a049-4bf94a22fb8f")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "Q32")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "Q8")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "Q16")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "Q24")
 					(unit 1)
 				)
 			)
@@ -5513,15 +5657,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "95bbf11f-e71c-409d-8fe5-8666165ad898")
+			(uuid "7db6230b-583d-4f05-b59c-29a4a691e808")
 		)
 		(pin "1"
-			(uuid "b7dc7666-2092-4921-ac35-9e617d315073")
+			(uuid "99d78f38-59e9-486a-a84e-4664ce944cee")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "C59")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "C17")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "C31")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -5591,15 +5747,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "4857d780-fb4a-4241-9b37-46b83bb69cfd")
+			(uuid "49ff9dfd-e4ec-47c2-96a9-b3981dcc86c3")
 		)
 		(pin "1"
-			(uuid "a847ccc6-20d2-433b-92c2-c7be464bd632")
+			(uuid "f0776fb8-1e14-4a52-a24c-eaa242679464")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "C62")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "C20")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "C34")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -5663,24 +5831,36 @@
 			)
 		)
 		(pin "3"
-			(uuid "e88e8185-d39b-416c-91c6-7396c18baf7f")
+			(uuid "7a4dec4e-0c10-43f0-aa59-4768865814a5")
 		)
 		(pin "5"
-			(uuid "fda607e3-5fbe-41d8-a2a5-4d03d20e5978")
+			(uuid "f0f0afae-f3fa-4807-bc1a-fe16bc0d1976")
 		)
 		(pin "2"
-			(uuid "bd288d97-f9f9-41bf-88eb-c46b0fec0bd1")
+			(uuid "f10cf496-5ca6-43d7-811a-d3baf9f690b3")
 		)
 		(pin "4"
-			(uuid "d846d4f5-47f3-4977-9949-dc1efe1746c6")
+			(uuid "cb2ea383-c5c7-4809-95a2-cc9d71a1b0c4")
 		)
 		(pin "1"
-			(uuid "31a6f430-a0ae-4f3f-8978-bc80a8bccd6f")
+			(uuid "af2cee06-9040-4041-9359-48042f8e03b6")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "Q27")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "Q3")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "Q11")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "Q19")
 					(unit 1)
 				)
 			)
@@ -5751,15 +5931,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "c796734a-5b8f-419e-bfe0-1881cc676695")
+			(uuid "6070f8ff-670f-42a3-b286-45a9a74d2134")
 		)
 		(pin "2"
-			(uuid "f02bc305-ab2f-49e4-ad97-c0829c77d7c5")
+			(uuid "574fb293-e684-44e4-8b37-747f9dbcdce6")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "R34")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "R13")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "R20")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -5831,15 +6023,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "ef162cf3-ab00-4bf4-b4cb-32fd0d91a0af")
+			(uuid "4206fe4e-afeb-476f-a521-09202327f271")
 		)
 		(pin "1"
-			(uuid "bd356e0a-c314-4ff7-8497-4922ae5385b8")
+			(uuid "6d5ec8bc-a8cc-444b-a890-36eb8df51842")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "C54")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "C12")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "C26")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -5911,15 +6115,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "8261f1e0-f8c1-44ce-a682-d0456db8a181")
+			(uuid "9ca3d417-cebd-4b44-a7a0-8dbbe488436e")
 		)
 		(pin "1"
-			(uuid "75d5b168-e71b-4f20-818f-e13d3ccf527a")
+			(uuid "75a4078d-557c-4b06-a2ea-22781e8ccaa2")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "C56")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "C14")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "C28")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -5987,15 +6203,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "694cd214-a973-4d30-95c3-9ad76aa89d19")
+			(uuid "54cfb03c-e2bc-4b64-aa0d-7e3b1f5ca79f")
 		)
 		(pin "2"
-			(uuid "ce948ef9-95af-48f0-ac9a-a56dcb42d600")
+			(uuid "28eafb5c-de14-4280-8cbf-24cad1abdf02")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "C63")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "C21")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "C35")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -6064,15 +6292,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "79427ada-33d3-4222-b059-ca841cbdcdcf")
+			(uuid "a18f6d28-7adb-4d8e-afbf-d815e06e1544")
 		)
 		(pin "2"
-			(uuid "c788761a-b14b-4fb9-a7ad-96e11e0c79d8")
+			(uuid "5b17a669-3116-46d4-8c0c-6721734ed61a")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "R35")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "R14")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -6143,15 +6383,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "5feeaec5-d483-4fe7-9d1e-c952ac78c27d")
+			(uuid "5ae66f8e-6a3a-465f-ba83-480f0ec923f7")
 		)
 		(pin "2"
-			(uuid "3bd94c9e-b3e9-4edc-b5e7-e084b0cf8211")
+			(uuid "1451d8c8-4edc-490b-ae4f-ed2efbe90225")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "R31")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "R10")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -6215,24 +6467,36 @@
 			)
 		)
 		(pin "3"
-			(uuid "db61afd7-1cf4-4a85-9a6b-662e582c0f86")
+			(uuid "2ad41be7-fb0e-454e-8171-b8bc4b380b14")
 		)
 		(pin "5"
-			(uuid "5a22314e-2ff7-416f-ae5c-b4445a8907f7")
+			(uuid "2519d968-3b74-4dd8-a444-3d75d76a548a")
 		)
 		(pin "2"
-			(uuid "b57e3ad9-7e1d-4601-b090-69f5512f74e0")
+			(uuid "322d4435-517b-4d14-be58-8b44e046756c")
 		)
 		(pin "4"
-			(uuid "611d9ecf-e554-4d6c-a06c-bf8bdb721e0b")
+			(uuid "8e306b8d-3de9-4328-b31e-261a6af02923")
 		)
 		(pin "1"
-			(uuid "83a75a7b-d815-41d6-be95-7b2a02a58f53")
+			(uuid "b30e08cc-5131-4e1e-a67b-c6247f69329a")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "Q26")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "Q2")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "Q10")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "Q18")
 					(unit 1)
 				)
 			)
@@ -6304,15 +6568,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "e99ad17e-2d7e-4243-8db8-318968481db3")
+			(uuid "d2498aae-b14c-424b-b047-347585ca3b16")
 		)
 		(pin "1"
-			(uuid "ed763619-38d9-4b56-abdf-267613e364e8")
+			(uuid "2582e1cb-aab4-4f6f-823d-f8fb20f27b82")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "C55")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "C13")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "C27")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -6376,24 +6652,36 @@
 			)
 		)
 		(pin "3"
-			(uuid "bf8426fd-76ba-4fd0-8c65-622baad55e69")
+			(uuid "a9757742-2bc7-4735-9dbb-ddc4d6161b55")
 		)
 		(pin "5"
-			(uuid "5f0b8d64-ccc5-4704-81b1-33ee780681e4")
+			(uuid "4cf16a86-9f0a-4683-b541-19ba56311585")
 		)
 		(pin "2"
-			(uuid "0ece2d59-47f0-4b10-b350-6126dc045756")
+			(uuid "096a84e4-6135-4e88-af5f-45d0cec5b992")
 		)
 		(pin "4"
-			(uuid "a0ff2939-8fb3-435d-825f-8f8c1cd96422")
+			(uuid "d4c0ffd6-1407-49d9-bf6b-0a1ae00ff947")
 		)
 		(pin "1"
-			(uuid "4ededdcf-404f-4b1f-a10d-a6bd2abaf5bf")
+			(uuid "f95a030b-c39a-4efb-80d3-3c6fca142ba4")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "Q31")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "Q7")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "Q15")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "Q23")
 					(unit 1)
 				)
 			)
@@ -6463,15 +6751,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "6320c492-4189-45fe-a6e5-c1060d4ad9fe")
+			(uuid "55ac7b11-b43f-44cb-8c21-7b3642053b53")
 		)
 		(pin "1"
-			(uuid "54e3a6cf-720c-4665-b1ad-03c935c3b59e")
+			(uuid "4e73ace6-6478-48e3-b904-aa7712557836")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "C67")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "C25")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "C39")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -6541,15 +6841,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "d764c705-cb30-4bdc-a22b-28846ffd8e86")
+			(uuid "6a8e0690-bdc4-4fed-b534-9dabdd4c7972")
 		)
 		(pin "1"
-			(uuid "b4cb81b3-c2d0-43f1-b717-5e82b9cc6dff")
+			(uuid "450ba998-4126-4538-b3ab-738294774c39")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "C58")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "C16")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "C30")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -6611,21 +6923,33 @@
 			)
 		)
 		(pin "1"
-			(uuid "6092cdb6-2f3f-484b-bd05-a477b2794ebb")
+			(uuid "b90936ee-da47-4770-a448-3b31aed8f69b")
 		)
 		(pin "3"
-			(uuid "6a3d1436-c81d-4eea-9209-858dc4ce6138")
+			(uuid "06c4c740-1811-40ae-a5e7-122a643277e0")
 		)
 		(pin "2"
-			(uuid "fa8387ff-0472-44ec-8525-c77e04f18367")
+			(uuid "c6e36e81-7b0f-498c-8b3a-d43bc18ba782")
 		)
 		(pin "4"
-			(uuid "afef7e49-f729-4dba-8ed5-0bea0eba990e")
+			(uuid "37b330e0-b379-4db2-929c-daa1cc89d69b")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "J7")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "J3")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "J5")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -6690,24 +7014,36 @@
 			)
 		)
 		(pin "3"
-			(uuid "f64c8fa8-0998-4b8e-9965-243c662a947d")
+			(uuid "514989da-6296-4d4f-8f98-231f23c9a058")
 		)
 		(pin "5"
-			(uuid "8ed61d71-1ed8-4777-b4ce-cc94e127a629")
+			(uuid "4ca111d3-dadb-43b2-a7f5-438f4b08d861")
 		)
 		(pin "2"
-			(uuid "d381f392-905f-4458-b698-a238fdb07bd1")
+			(uuid "29debc51-7d28-455c-9847-0ca28379e612")
 		)
 		(pin "4"
-			(uuid "f977b3b1-2d8e-4752-9cdc-ea5841e63b49")
+			(uuid "774b694b-5bc2-4d43-9eef-c80fa2cb4474")
 		)
 		(pin "1"
-			(uuid "54673dea-ed94-4353-a664-818c406a6799")
+			(uuid "566c1b14-f54b-4079-b89c-8333c35fdde3")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "Q29")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "Q5")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "Q13")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "Q21")
 					(unit 1)
 				)
 			)
@@ -6779,8 +7115,20 @@
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "#SYM4")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "#SYM1")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "#SYM2")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "#SYM3")
 					(unit 1)
 				)
 			)
@@ -6852,15 +7200,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "4ed8e35b-bb81-44a1-aff0-cfb3f11794dd")
+			(uuid "5aea9c7e-8ad9-4bc8-bd35-6e0a35637f78")
 		)
 		(pin "1"
-			(uuid "2e6c58d6-1c57-4a6e-a225-4e545b8177a7")
+			(uuid "f4dcf6be-1416-4fc7-9d14-561bc4a72ffa")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "C57")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "C15")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "C29")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -6922,156 +7282,168 @@
 			)
 		)
 		(pin "19"
-			(uuid "f67abe51-fb05-4df3-8e77-e90ac367c929")
+			(uuid "af9e9ac0-2735-4dd4-8902-98f81797877f")
 		)
 		(pin "14"
-			(uuid "d1bd7b1f-4e4d-4d03-b082-e970d7d0b69e")
+			(uuid "49e6bd09-1231-4e98-acc0-5277ad8a9863")
 		)
 		(pin "40"
-			(uuid "c269a0ea-ebca-4da1-aa94-506835a0673d")
+			(uuid "07ad6033-6fa2-4551-8644-bd172d9a9ab0")
 		)
 		(pin "7"
-			(uuid "fe25fcb5-ea18-442a-9dc9-da66d2ff92f1")
+			(uuid "cb489aeb-28da-4e24-ab12-b7cc6aadc486")
 		)
 		(pin "9"
-			(uuid "ab249105-42e1-49c5-a62c-ae56b501ac35")
+			(uuid "541dc7c4-0ab4-40b9-b61e-f677ffc5d625")
 		)
 		(pin "34"
-			(uuid "08155d55-159b-4383-bf8e-76103ef80c13")
+			(uuid "fe05f313-2a52-4d58-a1e0-1e824ac451f8")
 		)
 		(pin "4"
-			(uuid "c753234a-4730-4c9b-be48-bfa7686e297d")
+			(uuid "98f7fab0-b928-490a-822a-21f3fb1f7730")
 		)
 		(pin "11"
-			(uuid "a12c0758-bd68-4f2a-bb85-0ff54fe32dc4")
+			(uuid "ba0cb200-7af1-446d-b7ca-a69a6576657b")
 		)
 		(pin "32"
-			(uuid "82be5471-491f-46e8-adb2-f6bc5acd6624")
+			(uuid "deb99561-c035-4c07-bcc7-9069c09f9b12")
 		)
 		(pin "37"
-			(uuid "82106785-8a02-4b3d-aa05-76dc05b4ca97")
+			(uuid "be36c3ab-8302-4ad5-b7cf-e21cff3bda2b")
 		)
 		(pin "23"
-			(uuid "6e9c85f2-e85c-4816-ab05-b98391a28212")
+			(uuid "dbe0b4f1-10a0-4a6b-94c5-61c7d192851d")
 		)
 		(pin "29"
-			(uuid "4527f31c-722c-4366-92e7-3d4c71d53a94")
+			(uuid "878a8178-8029-4fe2-ad46-aa9f9ce8deed")
 		)
 		(pin "15"
-			(uuid "2d388d84-5729-4281-83a7-c5490aca1509")
+			(uuid "7978b01d-e813-4ec4-a964-06266c474c92")
 		)
 		(pin "10"
-			(uuid "c86c550f-98e4-4b7d-9b2d-aa46edb3a9d9")
+			(uuid "9b3292d5-7e14-4440-a252-1345857f2ac5")
 		)
 		(pin "20"
-			(uuid "977c0155-afe6-45be-8689-57af04db560c")
+			(uuid "fe1bcc13-809c-4243-93ca-879743439ab5")
 		)
 		(pin "26"
-			(uuid "563bc184-575b-4f17-b346-a9e9b7d4ac51")
+			(uuid "18f11d01-be7e-41e9-9087-f43b8a8d29b4")
 		)
 		(pin "28"
-			(uuid "56dbfcc3-6931-4d14-a59b-5f75da03a58a")
+			(uuid "cc32765d-c747-4bb7-9122-c766f1e3a276")
 		)
 		(pin "38"
-			(uuid "dccb916a-baf4-47d5-8c7c-9675037d51ac")
+			(uuid "05afdf5a-b71b-42b4-923f-4e4fa37004c0")
 		)
 		(pin "12"
-			(uuid "94afca24-7ed6-40d0-922c-2bbb3649bead")
+			(uuid "119dc1f3-653a-4ac9-acce-ba54610bde6f")
 		)
 		(pin "3"
-			(uuid "ee94f0bb-813e-4001-9923-d756a2921bd2")
+			(uuid "4631c178-3b02-48b5-acd8-a7aacd756a66")
 		)
 		(pin "22"
-			(uuid "aa1cbc95-e0e8-4008-9fff-d1a73c703c25")
+			(uuid "165d33f9-14df-4ce5-bb1a-9181035aee9f")
 		)
 		(pin "16"
-			(uuid "29f95311-6bc6-45ab-85e1-1a922bb2127d")
+			(uuid "e150b665-87cd-48bb-acf6-016027e056a5")
 		)
 		(pin "42"
-			(uuid "63816f44-aace-4d4f-83b7-cac77cdd085d")
+			(uuid "f0399697-31f2-43af-b0d3-020352bd250d")
 		)
 		(pin "43"
-			(uuid "ab233833-48d8-42b4-9568-1daf3213d25d")
+			(uuid "cabb72b3-f88f-4fba-a73a-54150b9b0d22")
 		)
 		(pin "17"
-			(uuid "854f9b94-19c6-4501-b37e-55b54723929b")
+			(uuid "f23b26b7-7d1e-4254-a2ea-630b63108cb7")
 		)
 		(pin "44"
-			(uuid "d6fb837b-3d99-4f21-9d92-88ba5dfcc863")
+			(uuid "509dd5e9-080b-4c4d-b6e7-f5a3e3e3e697")
 		)
 		(pin "45"
-			(uuid "f0ac2ce9-0f95-48e6-8ea4-168814a91ba5")
+			(uuid "38435361-d8ce-43fb-a057-0be0f0acb5f5")
 		)
 		(pin "47"
-			(uuid "2abee99c-9d77-429d-aaec-ee5a94de2cef")
+			(uuid "9fb56967-25be-49de-a103-54163a912349")
 		)
 		(pin "46"
-			(uuid "3deb8f85-90ab-4fef-b2d0-2c48570b5f20")
+			(uuid "99a381fa-22e5-4741-bf5f-e9ea9966f4a3")
 		)
 		(pin "49"
-			(uuid "967c5431-a70b-4e7f-97b8-ca3705eb8717")
+			(uuid "3bf9e36b-8403-4e5d-873b-2fef67fa7edb")
 		)
 		(pin "8"
-			(uuid "2ef06265-7294-419d-9be6-cb37b9fef9a6")
+			(uuid "fef84eaa-7a86-4e3a-89e4-91568d5756a5")
 		)
 		(pin "24"
-			(uuid "b48779a1-fc96-4158-920f-922372893b3a")
+			(uuid "011c407a-21ae-4bc4-8fec-a19468acddf6")
 		)
 		(pin "33"
-			(uuid "e82d7ea8-4a6f-4ce4-a72a-cd3726fdf1ca")
+			(uuid "a1fcd848-7937-4689-aaa4-42bd5ba76103")
 		)
 		(pin "5"
-			(uuid "6fc0f58b-64d8-42f3-9441-b36a967c5ed8")
+			(uuid "ea19bac7-5054-4340-b07e-87091149fa38")
 		)
 		(pin "2"
-			(uuid "6f79801d-ea4b-45ec-a32b-c02ea61d5f2b")
+			(uuid "3cb14045-2029-4cf3-8009-eed5c75a8b6f")
 		)
 		(pin "25"
-			(uuid "a655a7c6-927c-4dad-8bdf-a16664160002")
+			(uuid "38055d96-6972-4eff-b77f-102fb7461403")
 		)
 		(pin "41"
-			(uuid "2a67bf91-cfd5-4a09-8a4c-fe52b62e1bfb")
+			(uuid "12a77f54-6cbe-4f1f-bbba-a09d4ca72fe5")
 		)
 		(pin "13"
-			(uuid "53b9d900-0039-4af2-af01-d8284d13831a")
+			(uuid "593d3b15-8e4e-42bc-9b8a-254cbb8d1343")
 		)
 		(pin "6"
-			(uuid "66aebf5a-1a42-40ed-a638-ea52a0c93634")
+			(uuid "d25091b2-7a19-423e-bb3d-ff8c93634145")
 		)
 		(pin "18"
-			(uuid "8a444e1a-3c4a-48eb-a0b8-5db635ac6eb5")
+			(uuid "7bb1cc13-6257-42de-8a3a-f15239502649")
 		)
 		(pin "21"
-			(uuid "f2f6259e-2127-4a6d-a722-69f314f66758")
+			(uuid "be1f01b0-2b95-4c9d-9da5-b64ba254b23c")
 		)
 		(pin "27"
-			(uuid "780f967b-ddca-4bc1-b601-4863338bb617")
+			(uuid "56b72a65-06dc-44fe-8c62-3dc60faf00df")
 		)
 		(pin "30"
-			(uuid "36f898dd-973b-41de-b49a-1201d9684eae")
+			(uuid "be2b04e2-03d8-4395-885f-110d09379b7f")
 		)
 		(pin "1"
-			(uuid "a0d6db11-7f8e-4992-af68-fb59044f2e31")
+			(uuid "22af9bb5-9217-4f86-862d-bab16bdc1fde")
 		)
 		(pin "31"
-			(uuid "2017caa1-ec8c-4345-975b-21b7d37e13c1")
+			(uuid "24f4c406-9a97-41fb-9250-44c10a4254a3")
 		)
 		(pin "35"
-			(uuid "f14dfcfd-e08d-4779-ab3d-50541cbcd9c6")
+			(uuid "9df0f72a-bc09-4734-be70-20706fd22ae2")
 		)
 		(pin "36"
-			(uuid "977136f2-57d5-489f-8706-5fc43f087ae6")
+			(uuid "b3722a66-2058-444e-a461-6cf95ad75a5d")
 		)
 		(pin "39"
-			(uuid "2d6cf249-d6a9-400f-a951-fca871f5399f")
+			(uuid "d4650bde-2c2d-49a8-94ca-0f10d6f2d386")
 		)
 		(pin "48"
-			(uuid "c86d9815-78cd-41fc-bdb9-0d0453ef41ee")
+			(uuid "3c2447b2-0ae1-4b45-b511-8c08b94a609b")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "U6")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "U3")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "U4")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -7140,15 +7512,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "ff0bdd97-e930-4ab5-8f4d-83c1e1f4ecad")
+			(uuid "8a54576f-1359-43e1-89b9-f36d0ffd65f6")
 		)
 		(pin "2"
-			(uuid "a51691b0-f086-4561-98cd-eed0ceada049")
+			(uuid "820b3f40-a528-4fed-abb7-a6af5a722031")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "R32")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "R11")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -7219,15 +7603,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "0afe114a-6df1-4750-b3d4-bb9c14262228")
+			(uuid "6b27579b-ef1d-43d8-b7bd-8259f06979b7")
 		)
 		(pin "2"
-			(uuid "bce06489-d9fc-4e86-a71c-2a801c82be39")
+			(uuid "d7562216-6f4c-4b24-8ff2-342eb531f46c")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "R37")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "R16")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "R23")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -7296,15 +7692,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "4d29b0f8-d880-40d9-a351-c10174cdf58e")
+			(uuid "f4fa929d-f741-4865-a5cf-91782f556c8a")
 		)
 		(pin "2"
-			(uuid "9bc4d2d8-5fe3-4402-b32f-a27287f6fe97")
+			(uuid "e7fbe729-8b4b-40f3-861b-ca6139f46526")
 		)
 		(instances
 			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "R36")
+					(unit 1)
+				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
 					(reference "R15")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "R22")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "R29")
 					(unit 1)
 				)
 			)

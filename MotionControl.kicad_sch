@@ -7598,8 +7598,8 @@
 		)
 	)
 	(sheet
-		(at 100.33 102.87)
-		(size 34.29 38.1)
+		(at 43.18 86.36)
+		(size 44.45 38.1)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -7610,7 +7610,7 @@
 		)
 		(uuid "e19e1734-6914-4d39-b944-245c5f682818")
 		(property "Sheetname" "Steppers"
-			(at 100.33 102.1584 0)
+			(at 43.18 85.6484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7619,7 +7619,7 @@
 			)
 		)
 		(property "Sheetfile" "steppers.kicad_sch"
-			(at 100.33 141.5546 0)
+			(at 43.18 125.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7628,7 +7628,7 @@
 			)
 		)
 		(pin "VLOGIC" input
-			(at 100.33 107.95 180)
+			(at 43.18 91.44 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7638,7 +7638,7 @@
 			(uuid "0ebca676-4892-4f3c-a814-045d8eae29fd")
 		)
 		(pin "GND" input
-			(at 100.33 110.49 180)
+			(at 43.18 93.98 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7648,7 +7648,7 @@
 			(uuid "7e4987de-6028-4f73-8ba9-fc34b1944295")
 		)
 		(pin "LED" input
-			(at 100.33 119.38 180)
+			(at 43.18 102.87 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7657,18 +7657,8 @@
 			)
 			(uuid "758311cd-f586-4f19-a217-83e9fb5c7b4d")
 		)
-		(pin "CSn" input
-			(at 100.33 127 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "dea078de-38c4-4039-95af-24f244842dad")
-		)
 		(pin "SCK" input
-			(at 100.33 129.54 180)
+			(at 43.18 113.03 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7678,7 +7668,7 @@
 			(uuid "2fa09c56-365b-4ac7-ad34-21776c59cc05")
 		)
 		(pin "VLED" input
-			(at 100.33 116.84 180)
+			(at 43.18 100.33 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7688,7 +7678,7 @@
 			(uuid "84425a9a-029e-4f5c-9a48-f4a6c4a90294")
 		)
 		(pin "MISO" input
-			(at 100.33 132.08 180)
+			(at 43.18 115.57 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7698,7 +7688,7 @@
 			(uuid "a848f780-30b8-4961-af6d-bde7934f2a1a")
 		)
 		(pin "MOSI" input
-			(at 100.33 134.62 180)
+			(at 43.18 118.11 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7706,6 +7696,46 @@
 				(justify left)
 			)
 			(uuid "8095d978-804d-4e5c-bb23-2794ffda1230")
+		)
+		(pin "CSn1" input
+			(at 57.15 124.46 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5ff3d3ee-f912-4bb0-8c78-53275a0ad248")
+		)
+		(pin "CSn2" input
+			(at 59.69 124.46 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f858a1d4-4b04-4e41-97e1-996ba735e625")
+		)
+		(pin "CSn3" input
+			(at 62.23 124.46 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5c1e7315-d324-4394-b175-1550e87ada9c")
+		)
+		(pin "CSn4" input
+			(at 64.77 124.46 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c8262ab3-972d-4b50-9f85-8151ac0a8d7b")
 		)
 		(instances
 			(project "MotionControl"
