@@ -582,6 +582,14 @@
     [
       "a0723af3-05eb-4629-8c24-f2f5fccdefe2",
       "Power and USB"
+    ],
+    [
+      "67bc6569-64da-4808-9d21-6253c4b6aa7c",
+      "Stepper Unit"
+    ],
+    [
+      "e19e1734-6914-4d39-b944-245c5f682818",
+      "Steppers"
     ]
   ],
   "text_variables": {}
