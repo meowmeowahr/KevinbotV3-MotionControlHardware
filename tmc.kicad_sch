@@ -434,6 +434,290 @@
 				)
 			)
 		)
+		(symbol "Device:Q_NMOS_DGS"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NMOS_DGS"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, drain/gate/source"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NMOS_DGS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Q_NMOS_DGS_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -1520,212 +1804,6 @@
 				)
 			)
 		)
-		(symbol "FET:SQJB70EP-T1_GE3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 9.652 -21.336 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SON:Fairchild_DualPower33-6_3x3mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SQJB70EP-T1_GE3_1_0"
-				(polyline
-					(pts
-						(xy -10.16 -17.78) (xy 10.16 -17.78)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 -2.54) (xy -10.16 -17.78)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -17.78) (xy 10.16 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy -10.16 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 -10.16 0)
-					(length 5.08)
-					(name "G1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 -22.86 90)
-					(length 5.08)
-					(name "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 2.54 -22.86 90)
-					(length 5.08)
-					(name "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -10.16 180)
-					(length 5.08)
-					(name "G2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 2.54 270)
-					(length 5.08)
-					(name "D1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 2.54 2.54 270)
-					(length 5.08)
-					(name "D2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Graphic:SYM_Hot_Small"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -2326,7 +2404,7 @@
 		(at 245.11 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "445fe2b2-6e6d-41eb-81ec-4f8e6374b037")
+		(uuid "4c6ed766-3338-4d10-ab2e-1e944177e331")
 	)
 	(junction
 		(at 149.86 107.95)
@@ -2351,12 +2429,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "807fc76b-b45d-439e-a0d7-e85e6625e044")
-	)
-	(junction
-		(at 152.4 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88c9677d-7c7f-4a55-9ee2-965cd81c5e80")
 	)
 	(junction
 		(at 170.18 74.93)
@@ -2419,6 +2491,12 @@
 		(uuid "c3620ab8-10ef-40db-99fa-f74e2f297fc3")
 	)
 	(junction
+		(at 152.4 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c594cebc-7395-446c-b65c-09c17405d25d")
+	)
+	(junction
 		(at 245.11 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2440,17 +2518,17 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 72.39) (xy 240.03 91.44)
+			(xy 152.4 58.42) (xy 152.4 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07ca08b9-5c5f-44bd-bbdf-06a61e173c95")
+		(uuid "04962f9b-842f-41f1-ba4f-58e7af25d6f2")
 	)
 	(wire
 		(pts
-			(xy 147.32 66.04) (xy 147.32 74.93)
+			(xy 147.32 58.42) (xy 147.32 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2570,6 +2648,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 104.14) (xy 232.41 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24e0d1c1-61f1-4547-b8ce-5dcb45abe515")
+	)
+	(wire
+		(pts
 			(xy 96.52 67.31) (xy 95.25 67.31)
 		)
 		(stroke
@@ -2620,6 +2708,26 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 100.33) (xy 147.32 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f1d1e6a-4761-4001-9143-84e5c2ec74db")
+	)
+	(wire
+		(pts
+			(xy 152.4 107.95) (xy 156.21 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36c5aeea-88ad-4aaf-8000-1f5f9545cac6")
+	)
+	(wire
+		(pts
 			(xy 58.42 97.79) (xy 59.69 97.79)
 		)
 		(stroke
@@ -2627,16 +2735,6 @@
 			(type default)
 		)
 		(uuid "381993c7-a650-4a75-82ac-3f7254d9df1d")
-	)
-	(wire
-		(pts
-			(xy 147.32 74.93) (xy 147.32 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "385691c0-58d6-4bb7-a88f-ca4136959d18")
 	)
 	(wire
 		(pts
@@ -2770,7 +2868,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 107.95) (xy 156.21 107.95)
+			(xy 149.86 107.95) (xy 152.4 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2820,6 +2918,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 53.34) (xy 165.1 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "618b7e31-c3af-4c0f-8ab6-f674a26b30e2")
+	)
+	(wire
+		(pts
 			(xy 96.52 62.23) (xy 95.25 62.23)
 		)
 		(stroke
@@ -2850,6 +2958,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 95.25) (xy 165.1 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68eee97e-b6e5-45c5-b3a1-0dfc9b9059af")
+	)
+	(wire
+		(pts
 			(xy 82.55 52.07) (xy 82.55 54.61)
 		)
 		(stroke
@@ -2857,6 +2975,16 @@
 			(type default)
 		)
 		(uuid "69a51f4a-168e-4c30-9536-bc1aa9cb3aa5")
+	)
+	(wire
+		(pts
+			(xy 134.62 95.25) (xy 139.7 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c9bc038-e11e-431a-b465-6465a21fbd6d")
 	)
 	(wire
 		(pts
@@ -2920,13 +3048,33 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 63.5) (xy 245.11 72.39)
+			(xy 245.11 55.88) (xy 245.11 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7eccc09c-ca04-442e-82f5-d567dd3eed83")
+	)
+	(wire
+		(pts
+			(xy 252.73 104.14) (xy 257.81 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f45ea94-db8d-419c-85d1-aa7ff638427c")
+	)
+	(wire
+		(pts
+			(xy 147.32 74.93) (xy 147.32 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8006c85d-b340-4032-bbef-2ee0b1be21e5")
 	)
 	(wire
 		(pts
@@ -2970,6 +3118,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 50.8) (xy 232.41 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87e3a451-5d58-47a1-a4b8-7b4c1cb1eadb")
+	)
+	(wire
+		(pts
 			(xy 149.86 36.83) (xy 152.4 36.83)
 		)
 		(stroke
@@ -2980,7 +3138,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 63.5) (xy 240.03 72.39)
+			(xy 240.03 55.88) (xy 240.03 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3000,7 +3158,17 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 74.93) (xy 152.4 82.55)
+			(xy 152.4 100.33) (xy 152.4 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90463aaa-cfb8-46a8-9707-92d4f1b7c006")
+	)
+	(wire
+		(pts
+			(xy 152.4 74.93) (xy 152.4 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3100,7 +3268,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 72.39) (xy 245.11 91.44)
+			(xy 245.11 72.39) (xy 245.11 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3120,7 +3288,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 36.83) (xy 152.4 40.64)
+			(xy 152.4 36.83) (xy 152.4 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3140,7 +3308,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 38.1) (xy 240.03 34.29)
+			(xy 240.03 34.29) (xy 240.03 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3180,6 +3348,26 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 36.83) (xy 147.32 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b77ab5b2-7cd7-438b-a2d5-2c3c8c579f48")
+	)
+	(wire
+		(pts
+			(xy 252.73 50.8) (xy 257.81 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7fbad9f-79da-4cf8-9ba2-41545feb0734")
+	)
+	(wire
+		(pts
 			(xy 240.03 116.84) (xy 243.84 116.84)
 		)
 		(stroke
@@ -3210,13 +3398,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 66.04) (xy 152.4 74.93)
+			(xy 240.03 109.22) (xy 240.03 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c08aa2f5-fd32-4444-a7d2-ad8db9920aea")
+		(uuid "c0210a1c-0939-4a44-98c6-1e6567b8f4c8")
 	)
 	(wire
 		(pts
@@ -3237,6 +3425,16 @@
 			(type default)
 		)
 		(uuid "c4f227ef-53b6-4098-ba19-b464fb7f50b5")
+	)
+	(wire
+		(pts
+			(xy 245.11 109.22) (xy 245.11 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9037742-933b-4328-8ea8-93d3c00e4a3e")
 	)
 	(wire
 		(pts
@@ -3270,6 +3468,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 53.34) (xy 139.7 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce28e1c3-0886-41b4-b21b-6b4b9123e617")
+	)
+	(wire
+		(pts
 			(xy 59.69 59.69) (xy 54.61 59.69)
 		)
 		(stroke
@@ -3277,6 +3485,16 @@
 			(type default)
 		)
 		(uuid "cf4e1473-d47e-4427-bc44-4d5c8316e95f")
+	)
+	(wire
+		(pts
+			(xy 240.03 72.39) (xy 240.03 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d18ce89d-40a9-46fa-bfc5-d3250ddc06bf")
 	)
 	(wire
 		(pts
@@ -3307,6 +3525,16 @@
 			(type default)
 		)
 		(uuid "d6f3bbff-0669-45fe-9e30-057004be14d1")
+	)
+	(wire
+		(pts
+			(xy 245.11 116.84) (xy 247.65 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d74893a0-0c5f-45b0-9446-7fca66da703c")
 	)
 	(wire
 		(pts
@@ -3360,26 +3588,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 40.64) (xy 147.32 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb9cf631-0b24-4018-8d9f-8d6585c47883")
-	)
-	(wire
-		(pts
-			(xy 149.86 107.95) (xy 152.4 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eecb307b-d193-45e5-b165-0c2728702950")
-	)
-	(wire
-		(pts
 			(xy 243.84 116.84) (xy 245.11 116.84)
 		)
 		(stroke
@@ -3410,16 +3618,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 116.84) (xy 247.65 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f555c72a-2c37-4379-b25d-4f8a7b7a560c")
-	)
-	(wire
-		(pts
 			(xy 96.52 74.93) (xy 95.25 74.93)
 		)
 		(stroke
@@ -3430,7 +3628,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 34.29) (xy 245.11 38.1)
+			(xy 245.11 34.29) (xy 245.11 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4387,6 +4585,91 @@
 		(uuid "ff7fcc3b-6dbe-4967-b61b-e8726272b716")
 	)
 	(symbol
+		(lib_id "Device:Q_NMOS_DGS")
+		(at 247.65 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "087d7a65-f064-4aea-a867-ac8967abe4eb")
+		(property "Reference" "Q7"
+			(at 256.286 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_DGS"
+			(at 261.112 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FET:Diodes_DMT6016LFDF"
+			(at 242.57 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/gate/source"
+			(at 247.65 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3d40e1ef-0574-472b-a7e3-05e28b44d372")
+		)
+		(pin "3"
+			(uuid "7e0435b4-872e-4ed2-987b-45cfc53770a5")
+		)
+		(pin "1"
+			(uuid "0a61fcbd-0984-4d5a-8fc1-cf96b5742893")
+		)
+		(instances
+			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "Q25")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
+					(reference "Q7")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "Q9")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "Q23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 143.51 129.54 270)
 		(unit 1)
@@ -4470,98 +4753,6 @@
 				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
 					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FET:SQJB70EP-T1_GE3")
-		(at 149.86 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17689577-3388-4029-9b1a-65672ecd4d36")
-		(property "Reference" "Q14"
-			(at 163.83 49.6568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 163.83 51.5619 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:POWERPAK-SO-8_L6.2-W5.2-P1.27-BL_POWERPAK"
-			(at 149.86 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "7ad98015-9d9d-4d0e-9fe6-b7808a1c1f0f")
-		)
-		(pin "3"
-			(uuid "564d1ddb-6a75-41d1-a5e9-337ae3aa6cda")
-		)
-		(pin "4"
-			(uuid "f2d56065-2062-4d4f-b435-55d80a44d776")
-		)
-		(pin "2"
-			(uuid "9f737303-7eca-4d42-9f7d-456ff1dcb511")
-		)
-		(pin "6"
-			(uuid "85b06872-353d-4549-b5c7-1e2866cc7bf6")
-		)
-		(pin "1"
-			(uuid "401562c7-14c5-4433-b48f-ca9b7a5fb8c3")
-		)
-		(instances
-			(project "MotionControl"
-				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
-					(reference "Q17")
-					(unit 1)
-				)
-				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
-					(reference "Q14")
-					(unit 1)
-				)
-				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
-					(reference "Q15")
-					(unit 1)
-				)
-				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
-					(reference "Q16")
 					(unit 1)
 				)
 			)
@@ -4652,6 +4843,90 @@
 				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
 					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NMOS_DGS")
+		(at 237.49 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "330bc413-0ad9-41a7-94c9-20998320c966")
+		(property "Reference" "Q26"
+			(at 228.854 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_DGS"
+			(at 224.028 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FET:Diodes_DMT6016LFDF"
+			(at 242.57 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/gate/source"
+			(at 237.49 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f5d3460-c2c6-4502-8d23-7c54b1629d58")
+		)
+		(pin "3"
+			(uuid "0193eea7-6eb7-4a60-bfbe-e86d7bc1855f")
+		)
+		(pin "1"
+			(uuid "52bf378c-3cf8-4e65-9028-24d6c85e441f")
+		)
+		(instances
+			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "Q32")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
+					(reference "Q26")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "Q28")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "Q30")
 					(unit 1)
 				)
 			)
@@ -5285,6 +5560,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Q_NMOS_DGS")
+		(at 144.78 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a394220-a5b9-415a-8e99-7b96f6f57b74")
+		(property "Reference" "Q14"
+			(at 136.144 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_DGS"
+			(at 131.318 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FET:Diodes_DMT6016LFDF"
+			(at 149.86 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/gate/source"
+			(at 144.78 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d29a7987-daa7-4d95-8250-1aada70f102c")
+		)
+		(pin "3"
+			(uuid "3cbf91f1-4911-412c-a184-f23b18a12725")
+		)
+		(pin "1"
+			(uuid "6a4a3fb6-9c33-4ebc-8464-00f630952675")
+		)
+		(instances
+			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "Q17")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
+					(reference "Q14")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "Q15")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "Q16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 156.21 36.83 270)
 		(mirror x)
@@ -5558,98 +5917,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FET:SQJB70EP-T1_GE3")
-		(at 242.57 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "959d0bbf-1134-4d48-a6ce-8181e2ba65b9")
-		(property "Reference" "Q37"
-			(at 256.54 47.1168 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 256.54 49.0219 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:POWERPAK-SO-8_L6.2-W5.2-P1.27-BL_POWERPAK"
-			(at 242.57 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "c58f0a56-a807-4d37-8802-b6a381b86d1f")
-		)
-		(pin "4"
-			(uuid "f212ead8-22eb-4f2f-84a5-e6cb6e958b18")
-		)
-		(pin "3"
-			(uuid "05995557-7e9b-4525-8ed5-7325fc6a173c")
-		)
-		(pin "2"
-			(uuid "4760c929-2ebb-4e48-b07c-3d247be4cdd9")
-		)
-		(pin "1"
-			(uuid "3728cb93-d4a8-467c-9a7b-260a89802607")
-		)
-		(pin "6"
-			(uuid "2ec1b224-d6d8-4760-9c29-cf37ab5f04bf")
-		)
-		(instances
-			(project ""
-				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
-					(reference "Q37")
-					(unit 1)
-				)
-				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
-					(reference "Q34")
-					(unit 1)
-				)
-				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
-					(reference "Q35")
-					(unit 1)
-				)
-				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
-					(reference "Q36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 50.8 151.13 0)
 		(mirror y)
@@ -5736,6 +6003,91 @@
 				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
 					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NMOS_DGS")
+		(at 154.94 53.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a415e954-0fd8-4b53-94a1-fb37ac7e7a1a")
+		(property "Reference" "Q10"
+			(at 163.576 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_DGS"
+			(at 168.402 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FET:Diodes_DMT6016LFDF"
+			(at 149.86 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/gate/source"
+			(at 154.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33e618ed-0e61-4856-82ab-6da084248c1e")
+		)
+		(pin "3"
+			(uuid "2cf034df-439c-4196-98ca-ea08f2af4b47")
+		)
+		(pin "1"
+			(uuid "4d623ca6-ae43-44cd-9404-586ee247bc83")
+		)
+		(instances
+			(project ""
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "Q13")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
+					(reference "Q10")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "Q11")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -5913,98 +6265,6 @@
 				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
 					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FET:SQJB70EP-T1_GE3")
-		(at 242.57 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bbad56d9-163f-4fcd-a153-e7255bea437f")
-		(property "Reference" "Q6"
-			(at 255.27 100.4568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 255.27 102.3619 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:POWERPAK-SO-8_L6.2-W5.2-P1.27-BL_POWERPAK"
-			(at 242.57 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "ef1c0606-a917-4927-9848-4c1fd15414c8")
-		)
-		(pin "4"
-			(uuid "01f71fc0-54fa-417c-9c34-7ae3b7d047f1")
-		)
-		(pin "3"
-			(uuid "f49510fe-ff32-4d03-b193-f9ffd79bfd99")
-		)
-		(pin "5"
-			(uuid "aa979b9e-1602-4e90-af50-b700aff3d231")
-		)
-		(pin "1"
-			(uuid "10502893-1a4f-41d4-a7a1-b87e54894f8f")
-		)
-		(pin "2"
-			(uuid "bf4094df-d4f8-4123-97d3-b48af7bdc3d6")
-		)
-		(instances
-			(project "MotionControl"
-				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
-					(reference "Q9")
-					(unit 1)
-				)
-				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
-					(reference "Q6")
-					(unit 1)
-				)
-				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
-					(reference "Q7")
-					(unit 1)
-				)
-				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
-					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -6284,6 +6544,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Q_NMOS_DGS")
+		(at 237.49 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e46b6704-ff75-462c-83a3-eb07573907c1")
+		(property "Reference" "Q6"
+			(at 228.854 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_DGS"
+			(at 224.028 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FET:Diodes_DMT6016LFDF"
+			(at 242.57 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/gate/source"
+			(at 237.49 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6333af84-82a5-45bc-8618-fe69a885fac6")
+		)
+		(pin "3"
+			(uuid "b5230429-1ef5-40df-90cf-f170c671aa84")
+		)
+		(pin "1"
+			(uuid "c266dca8-0cfc-4c99-a64e-c1193892c8da")
+		)
+		(instances
+			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "Q24")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
+					(reference "Q6")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "Q8")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "Q22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 63.5 24.13 90)
 		(mirror x)
@@ -6462,6 +6806,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Q_NMOS_DGS")
+		(at 154.94 95.25 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e74ac32a-de2c-416f-bb95-ea1d1c1ee09e")
+		(property "Reference" "Q3"
+			(at 163.576 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_DGS"
+			(at 168.402 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FET:Diodes_DMT6016LFDF"
+			(at 149.86 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/gate/source"
+			(at 154.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c0ae2539-000e-495f-9bf8-692db1ebad45")
+		)
+		(pin "3"
+			(uuid "cf75e162-6988-4836-9b22-4b950d8cc012")
+		)
+		(pin "1"
+			(uuid "7a3455e3-1af8-4828-81a1-e419a5c880f1")
+		)
+		(instances
+			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "Q21")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
+					(reference "Q3")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "Q5")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "Q19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Graphic:SYM_Hot_Small")
 		(at 96.52 124.46 0)
 		(unit 1)
@@ -6532,6 +6961,91 @@
 				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
 					(reference "#SYM3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NMOS_DGS")
+		(at 247.65 104.14 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1277ad9-883e-4af1-9532-17d0678a6f1c")
+		(property "Reference" "Q27"
+			(at 256.286 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_DGS"
+			(at 261.112 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FET:Diodes_DMT6016LFDF"
+			(at 242.57 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/gate/source"
+			(at 247.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "606dea54-08be-4200-bb74-f68506c81d91")
+		)
+		(pin "3"
+			(uuid "266603a5-2757-4485-8b74-ccdd0d56509b")
+		)
+		(pin "1"
+			(uuid "dea510f8-33b3-42ad-99c6-d52a3f2b927a")
+		)
+		(instances
+			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "Q33")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
+					(reference "Q27")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "Q29")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "Q31")
 					(unit 1)
 				)
 			)
@@ -6853,6 +7367,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Q_NMOS_DGS")
+		(at 144.78 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5410352-62b9-4ced-b1b4-39accb4e1611")
+		(property "Reference" "Q2"
+			(at 136.144 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_DGS"
+			(at 131.318 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FET:Diodes_DMT6016LFDF"
+			(at 149.86 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/gate/source"
+			(at 144.78 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "22f5c724-8c5e-412c-b5ee-8a2593ea49b3")
+		)
+		(pin "3"
+			(uuid "6f6ace47-4e16-43a0-adda-fb0e8f342e4c")
+		)
+		(pin "1"
+			(uuid "bff157d8-bf34-45b1-b27e-b7d4151d192f")
+		)
+		(instances
+			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
+					(reference "Q20")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
+					(reference "Q2")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
+					(reference "Q4")
+					(unit 1)
+				)
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
+					(reference "Q18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 143.51 118.11 270)
 		(unit 1)
@@ -6936,98 +7534,6 @@
 				)
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
 					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FET:SQJB70EP-T1_GE3")
-		(at 149.86 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f92650b2-0e6b-4a9f-a6d9-765b4f856fc6")
-		(property "Reference" "Q2"
-			(at 162.56 91.5668 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 162.56 93.4719 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:POWERPAK-SO-8_L6.2-W5.2-P1.27-BL_POWERPAK"
-			(at 149.86 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f8f7ce2-a56d-452f-808b-5f8175b07c55")
-		)
-		(pin "3"
-			(uuid "3ca0e327-8276-4692-90cb-35a0a57d24b8")
-		)
-		(pin "6"
-			(uuid "9bf91ff8-704e-4369-b9d3-04f38e16c151")
-		)
-		(pin "4"
-			(uuid "2bd1d403-53fd-43dd-b535-477edb1c401e")
-		)
-		(pin "5"
-			(uuid "51739cab-3a88-420e-a36d-9963814dd67a")
-		)
-		(pin "2"
-			(uuid "8df27984-2abf-453b-9610-be62f6be3fb4")
-		)
-		(instances
-			(project "MotionControl"
-				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e"
-					(reference "Q5")
-					(unit 1)
-				)
-				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c"
-					(reference "Q2")
-					(unit 1)
-				)
-				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c"
-					(reference "Q3")
-					(unit 1)
-				)
-				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
