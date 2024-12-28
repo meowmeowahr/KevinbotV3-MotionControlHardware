@@ -4594,7 +4594,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "087d7a65-f064-4aea-a867-ac8967abe4eb")
-		(property "Reference" "Q7"
+		(property "Reference" "Q25"
 			(at 256.286 53.594 0)
 			(effects
 				(font
@@ -4857,7 +4857,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "330bc413-0ad9-41a7-94c9-20998320c966")
-		(property "Reference" "Q26"
+		(property "Reference" "Q32"
 			(at 228.854 106.934 0)
 			(effects
 				(font
@@ -5568,7 +5568,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a394220-a5b9-415a-8e99-7b96f6f57b74")
-		(property "Reference" "Q14"
+		(property "Reference" "Q17"
 			(at 136.144 56.134 0)
 			(effects
 				(font
@@ -6018,7 +6018,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a415e954-0fd8-4b53-94a1-fb37ac7e7a1a")
-		(property "Reference" "Q10"
+		(property "Reference" "Q13"
 			(at 163.576 56.134 0)
 			(effects
 				(font
@@ -6552,7 +6552,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e46b6704-ff75-462c-83a3-eb07573907c1")
-		(property "Reference" "Q6"
+		(property "Reference" "Q24"
 			(at 228.854 53.594 0)
 			(effects
 				(font
@@ -6815,7 +6815,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e74ac32a-de2c-416f-bb95-ea1d1c1ee09e")
-		(property "Reference" "Q3"
+		(property "Reference" "Q21"
 			(at 163.576 98.044 0)
 			(effects
 				(font
@@ -6976,7 +6976,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1277ad9-883e-4af1-9532-17d0678a6f1c")
-		(property "Reference" "Q27"
+		(property "Reference" "Q33"
 			(at 256.286 106.934 0)
 			(effects
 				(font
@@ -7171,7 +7171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:TQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm_ThermalVias"
+		(property "Footprint" "QFP_Thermal:TQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm_ThermalVias_0.3"
 			(at 77.47 143.51 0)
 			(effects
 				(font
@@ -7375,7 +7375,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5410352-62b9-4ced-b1b4-39accb4e1611")
-		(property "Reference" "Q2"
+		(property "Reference" "Q20"
 			(at 136.144 98.044 0)
 			(effects
 				(font

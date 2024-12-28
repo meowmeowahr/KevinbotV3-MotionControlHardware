@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "FET")(type "KiCad")(uri "${KIPRJMOD}/FET.pretty")(options "")(descr ""))
   (lib (name "easyeda2kicad")(type "KiCad")(uri "${KIPRJMOD}/easyeda2kicad.pretty")(options "")(descr ""))
+  (lib (name "QFP_Thermal")(type "KiCad")(uri "${KIPRJMOD}/QFP_Thermal.pretty")(options "")(descr ""))
 )

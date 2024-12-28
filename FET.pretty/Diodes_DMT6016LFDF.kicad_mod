@@ -248,7 +248,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "152e8dc7-c54f-4f05-aee5-e4a615ee9712")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Diodes_UDFN2020-6_Type-F.wrl"
+	(model "${KIPRJMOD}/easyeda2kicad.3dshapes/U-DFN2020-6_L2.0-W2.0-H0.6-P0.65-BL.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -256,7 +256,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 0 0 90)
 		)
 	)
 )
