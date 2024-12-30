@@ -4491,9 +4491,9 @@
 		)
 		(uuid "fcd67a50-68f2-43dd-9f61-d09467b2bcd3")
 	)
-	(global_label "PA17_LED"
+	(global_label "PA06_NEOPIX"
 		(shape input)
-		(at 232.41 111.76 180)
+		(at 60.96 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4501,9 +4501,31 @@
 			)
 			(justify right)
 		)
-		(uuid "1f0b23e8-6c60-43a1-aeca-60b1e4523033")
+		(uuid "2d327909-97c1-40a5-9d14-7d225b2cc5ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.2325 111.76 0)
+			(at 45.3353 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PA16_LED"
+		(shape input)
+		(at 232.41 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "354474bb-7a24-4910-8755-ab5d5f0e3689")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.2325 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4531,6 +4553,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PA16_LED"
+		(shape input)
+		(at 48.26 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59c2360c-14f5-4542-8e8d-27bcb0601b07")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.4375 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PA06_NEOPIX"
+		(shape input)
+		(at 232.41 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5bd7d455-454f-45fd-8e68-341ef83d02e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 216.7853 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4641,28 +4707,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PA17_LED"
-		(shape input)
-		(at 48.26 36.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d6252cb8-7258-47fd-9d02-f6b8d6d67964")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.4375 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -7859,7 +7903,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d22876e2-b4d2-4224-b7b5-5d2090fcb74d")
 		(property "Reference" "U7"
 			(at 69.85 93.98 0)
@@ -7878,7 +7921,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 69.85 104.14 0)
+			(at 71.12 112.014 0)
 			(effects
 				(font
 					(size 1.524 1.524)
