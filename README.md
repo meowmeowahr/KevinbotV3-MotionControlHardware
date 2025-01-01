@@ -1,3 +1,8 @@
+# !! IMPORTANT !!
+
+> [!CAUTION]
+> Boards and schematics are not completed
+
 # Kevinbot v3 Motion Control Hardware
 
 tbd
