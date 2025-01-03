@@ -3401,6 +3401,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" "1757242"
+			(at 128.27 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "68431483-da84-40d7-a166-3f2a3bca99b7")
 		)
@@ -3615,7 +3624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "0ZCG0050FF2C"
+		(property "Part" "PTS12066V050"
 			(at 119.38 88.9 90)
 			(effects
 				(font

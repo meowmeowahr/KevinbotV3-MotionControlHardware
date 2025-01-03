@@ -1348,6 +1348,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" "1755736"
+			(at 146.05 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "60f72ec6-2cba-4459-8876-182827a7a264")
 		)
@@ -1548,6 +1557,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" "1755736"
+			(at 49.53 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d3b5a14-c156-4bff-a447-57d13c2f093e")
 		)
@@ -1616,6 +1634,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" "1755736"
+			(at 146.05 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a8bbd3f-04c0-469b-aada-37da8df79787")
 		)
@@ -1676,6 +1703,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 49.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "1755736"
 			(at 49.53 88.9 0)
 			(effects
 				(font

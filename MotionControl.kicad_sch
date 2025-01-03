@@ -7343,6 +7343,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" "2N7002"
+			(at 36.83 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e55e6842-c4b5-4e18-8189-b0e0419e87af")
 		)
@@ -7646,7 +7655,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30R"
+		(property "Value" "220R"
 			(at 266.7 50.7491 0)
 			(effects
 				(font
@@ -7674,6 +7683,15 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
+			(at 262.89 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "MPZ1608S221ATA00"
 			(at 262.89 49.53 0)
 			(effects
 				(font
@@ -8255,6 +8273,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 69.85 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "TC4427ACOA713"
 			(at 69.85 104.14 0)
 			(effects
 				(font

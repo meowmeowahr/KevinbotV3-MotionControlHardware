@@ -4639,6 +4639,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 247.65 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3d40e1ef-0574-472b-a7e3-05e28b44d372")
 		)
@@ -4894,6 +4903,15 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/gate/source"
+			(at 237.49 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "DMT6016LFDF-7"
 			(at 237.49 104.14 0)
 			(effects
 				(font
@@ -5613,6 +5631,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 144.78 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d29a7987-daa7-4d95-8250-1aada70f102c")
 		)
@@ -5752,7 +5779,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "50mR"
 			(at 152.4 124.4599 0)
 			(effects
 				(font
@@ -5788,7 +5815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "CRA2512-FZ-R075ELF"
+		(property "Part" "CRA2512-FZ-R050ELF"
 			(at 149.86 123.19 0)
 			(effects
 				(font
@@ -6055,6 +6082,15 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/gate/source"
+			(at 154.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "DMT6016LFDF-7"
 			(at 154.94 53.34 0)
 			(effects
 				(font
@@ -6597,6 +6633,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 237.49 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6333af84-82a5-45bc-8618-fe69a885fac6")
 		)
@@ -6772,6 +6817,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" "1755752"
+			(at 86.36 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b90936ee-da47-4770-a448-3b31aed8f69b")
 		)
@@ -6852,6 +6906,15 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/gate/source"
+			(at 154.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "DMT6016LFDF-7"
 			(at 154.94 95.25 0)
 			(effects
 				(font
@@ -7013,6 +7076,15 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/gate/source"
+			(at 247.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "DMT6016LFDF-7"
 			(at 247.65 104.14 0)
 			(effects
 				(font
@@ -7190,6 +7262,15 @@
 			)
 		)
 		(property "Description" "20A Driver for two-phase bipolar stepper motor, SPI, UART, TQFP-48"
+			(at 77.47 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "TMC5160A-TA"
 			(at 77.47 92.71 0)
 			(effects
 				(font
@@ -7420,6 +7501,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 144.78 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "22f5c724-8c5e-412c-b5ee-8a2593ea49b3")
 		)
@@ -7558,7 +7648,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "50mR"
 			(at 246.38 133.3499 0)
 			(effects
 				(font
@@ -7594,7 +7684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "CRA2512-FZ-R075ELF"
+		(property "Part" "CRA2512-FZ-R050ELF"
 			(at 243.84 132.08 0)
 			(effects
 				(font

@@ -1108,6 +1108,19 @@
 				)
 			)
 		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c9fd668-1440-4c9f-87d6-117131d59ff9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c/7a394220-a5b9-415a-8e99-7b96f6f57b74")
 		(sheetname "Stepper Unit1")
 		(sheetfile "tmc.kicad_sch")
@@ -1393,6 +1406,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e88a78c9-ff94-478e-9962-565ba74c18ca")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2112,7 +2138,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "50mR"
 			(at 0 2.62 90)
 			(layer "F.Fab")
 			(uuid "509c0fea-171e-4b76-96e7-a751403d7c4d")
@@ -2162,7 +2188,7 @@
 				)
 			)
 		)
-		(property "Part" "CRA2512-FZ-R075ELF"
+		(property "Part" "CRA2512-FZ-R050ELF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3297,6 +3323,19 @@
 				)
 			)
 		)
+		(property "Part" "1755736"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "364b8785-0f0b-42bf-9e8f-e580284411bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/e19e1734-6914-4d39-b944-245c5f682818/eb6d28ab-dfce-436b-8a1f-e9be1ba37f76")
 		(sheetname "Steppers")
@@ -3784,6 +3823,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ba6d13e-e64f-4d97-8fcc-cc6888fcf01a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5212,6 +5264,19 @@
 				)
 			)
 		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da2065af-7e2a-43f6-b9c8-02c1fce90a2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55/e74ac32a-de2c-416f-bb95-ea1d1c1ee09e")
 		(sheetname "Stepper Unit2")
 		(sheetfile "tmc.kicad_sch")
@@ -5497,6 +5562,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6d439c2-f4c5-4415-b4cd-a2b80354515f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6471,6 +6549,19 @@
 				)
 			)
 		)
+		(property "Part" "1755752"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99d0734c-0b13-495c-9a25-355a4ef42af2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e/e6607a11-e423-4e0d-a093-4a46864002b0")
 		(sheetname "Stepper Unit3")
@@ -7126,6 +7217,19 @@
 				)
 			)
 		)
+		(property "Part" "1755752"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "987c818c-2512-416d-aad1-eb3e935beb1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c/e6607a11-e423-4e0d-a093-4a46864002b0")
 		(sheetname "Stepper Unit")
@@ -7777,6 +7881,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04a38492-56fb-4848-a82c-20d62fb18967")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8795,6 +8912,19 @@
 				)
 			)
 		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72ac0f89-ba63-499a-86cc-650f8e94a6df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e19e1734-6914-4d39-b944-245c5f682818/5cddde6d-e53e-4dd0-b776-c3997587264e/330bc413-0ad9-41a7-94c9-20998320c966")
 		(sheetname "Stepper Unit3")
 		(sheetfile "tmc.kicad_sch")
@@ -9307,6 +9437,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d8b0f26-3844-4d4f-a7df-4f08670da356")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10623,6 +10766,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98949381-0f17-4f21-ba11-af1c8f26d0b3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12168,6 +12324,19 @@
 				)
 			)
 		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36ab5fc0-85c6-4e64-8018-00c2bf16d58e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c/e74ac32a-de2c-416f-bb95-ea1d1c1ee09e")
 		(sheetname "Stepper Unit")
 		(sheetfile "tmc.kicad_sch")
@@ -13306,6 +13475,7 @@
 		(property "Reference" "R34"
 			(at -0.4665 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "fce518b1-8ea6-4424-8ae0-f18e77434a16")
 			(effects
 				(font
@@ -13314,7 +13484,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "50mR"
 			(at 0 2.62 90)
 			(layer "F.Fab")
 			(uuid "d3040a26-0269-4eea-bd09-fa835d8f94ee")
@@ -13364,7 +13534,7 @@
 				)
 			)
 		)
-		(property "Part" "CRA2512-FZ-R075ELF"
+		(property "Part" "CRA2512-FZ-R050ELF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13587,6 +13757,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec850e4f-dfec-4cc1-986c-2e35d3e08895")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13880,6 +14063,19 @@
 				)
 			)
 		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87081e7d-b8c2-47c0-830a-522604e62bc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55/330bc413-0ad9-41a7-94c9-20998320c966")
 		(sheetname "Stepper Unit2")
 		(sheetfile "tmc.kicad_sch")
@@ -14165,6 +14361,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71f93fcb-2b51-40c8-8095-f12ead0bbe6f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -14925,6 +15134,19 @@
 				)
 			)
 		)
+		(property "Part" "1757242"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7be33c94-5a74-4769-9907-8bfdac524748")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/a0723af3-05eb-4629-8c24-f2f5fccdefe2/8c0b9187-e63a-427a-a1b8-665c0ce10fcb")
 		(sheetname "Power and USB")
@@ -15330,6 +15552,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8df66b8-a09c-45c2-ba7d-d3f3e4aa9c12")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -15843,6 +16078,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "TMC5160A-TA"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5a6c49b-dc87-4ae6-be60-c33a82196eba")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -17447,6 +17695,19 @@
 				)
 			)
 		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12da197a-197f-4b94-9716-e9f2feae10f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c/e46b6704-ff75-462c-83a3-eb07573907c1")
 		(sheetname "Stepper Unit")
 		(sheetfile "tmc.kicad_sch")
@@ -17728,6 +17989,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "TMC5160A-TA"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c621e52c-d6d4-4e66-811e-d5c527d084a7")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -19332,6 +19606,19 @@
 				)
 			)
 		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56739e25-2e09-4bec-85a9-c0adb0dbb9c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c/f5410352-62b9-4ced-b1b4-39accb4e1611")
 		(sheetname "Stepper Unit1")
 		(sheetfile "tmc.kicad_sch")
@@ -19844,6 +20131,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c97636a3-aaca-4322-b684-721a2c2fb703")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -21222,7 +21522,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "50mR"
 			(at 0 2.62 90)
 			(layer "F.Fab")
 			(uuid "601050d9-6af6-45ad-9338-afd0ce33f7c7")
@@ -21272,7 +21572,7 @@
 				)
 			)
 		)
-		(property "Part" "CRA2512-FZ-R075ELF"
+		(property "Part" "CRA2512-FZ-R050ELF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21740,6 +22040,7 @@
 		(property "Reference" "R37"
 			(at -0.5495 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0dacda1d-9bb6-466c-9b21-549f0df6ab5d")
 			(effects
 				(font
@@ -21748,7 +22049,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "50mR"
 			(at 0 2.62 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21799,7 +22100,7 @@
 				)
 			)
 		)
-		(property "Part" "CRA2512-FZ-R075ELF"
+		(property "Part" "CRA2512-FZ-R050ELF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24346,6 +24647,19 @@
 				)
 			)
 		)
+		(property "Part" "1755752"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92333204-f714-4cf5-8808-5d9ff7227d41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c/e6607a11-e423-4e0d-a093-4a46864002b0")
 		(sheetname "Stepper Unit1")
@@ -24997,6 +25311,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56a35db8-d3cf-41f9-8892-0c0a86ce1a10")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -25967,6 +26294,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf4a6283-4d82-423f-a739-0da6ffe25964")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -27395,6 +27735,19 @@
 				)
 			)
 		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed1c4cf9-74fe-44c2-98fb-b550b39d05d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55/f1277ad9-883e-4af1-9532-17d0678a6f1c")
 		(sheetname "Stepper Unit2")
 		(sheetfile "tmc.kicad_sch")
@@ -27951,6 +28304,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06a46b80-37ae-4a1f-87d6-b07effb38e26")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -29619,6 +29985,19 @@
 				)
 			)
 		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83d9351f-afb4-4f0c-9aff-7fa6188cc556")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c/330bc413-0ad9-41a7-94c9-20998320c966")
 		(sheetname "Stepper Unit1")
 		(sheetfile "tmc.kicad_sch")
@@ -30312,7 +30691,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "50mR"
 			(at 0 2.62 90)
 			(layer "F.Fab")
 			(uuid "d86a1128-72b5-41b2-bfb0-50bc211a4a97")
@@ -30362,7 +30741,7 @@
 				)
 			)
 		)
-		(property "Part" "CRA2512-FZ-R075ELF"
+		(property "Part" "CRA2512-FZ-R050ELF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31266,6 +31645,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd158bb5-fcd9-4dd9-97ad-13417fd7e45b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -33364,6 +33756,19 @@
 				)
 			)
 		)
+		(property "Part" "TMC5160A-TA"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69072a88-055c-45aa-8904-7edb942deaae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TQFP*1EP*7x7mm*P0.5mm*")
 		(path "/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55/f516b047-0f17-4318-b68d-a392d2a14c94")
 		(sheetname "Stepper Unit2")
@@ -35213,6 +35618,19 @@
 				)
 			)
 		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d45215b-96b2-4769-95ad-1c7e47d17eac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c/087d7a65-f064-4aea-a867-ac8967abe4eb")
 		(sheetname "Stepper Unit1")
 		(sheetfile "tmc.kicad_sch")
@@ -36271,6 +36689,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "2N7002"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40bc9e40-a4bd-4177-b061-5b11172b5a14")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -37773,6 +38204,19 @@
 				)
 			)
 		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5280e5dd-13dd-4223-8eb2-0161ee0c64c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e19e1734-6914-4d39-b944-245c5f682818/67bc6569-64da-4808-9d21-6253c4b6aa7c/7a394220-a5b9-415a-8e99-7b96f6f57b74")
 		(sheetname "Stepper Unit")
 		(sheetfile "tmc.kicad_sch")
@@ -38743,6 +39187,19 @@
 				)
 			)
 		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d3bf4a5-bd9c-4a45-b48b-857225cf4c18")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c/f1277ad9-883e-4af1-9532-17d0678a6f1c")
 		(sheetname "Stepper Unit1")
 		(sheetfile "tmc.kicad_sch")
@@ -39255,6 +39712,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "1755736"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "190754fe-7206-4c54-a610-b093cbfbeed3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -39977,6 +40447,19 @@
 				)
 			)
 		)
+		(property "Part" "1755752"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a5ef169-d7d0-40d2-915f-87e508c2d18f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55/e6607a11-e423-4e0d-a093-4a46864002b0")
 		(sheetname "Stepper Unit2")
@@ -40632,6 +41115,19 @@
 				)
 			)
 		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6e421d0-b963-4847-ae9f-737ad6de4ab1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55/087d7a65-f064-4aea-a867-ac8967abe4eb")
 		(sheetname "Stepper Unit2")
 		(sheetfile "tmc.kicad_sch")
@@ -40913,6 +41409,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "TMC5160A-TA"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ba58ae8-f768-4085-a79c-43f4ebd34ffe")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -42741,6 +43250,19 @@
 				)
 			)
 		)
+		(property "Part" "TC4427ACOA713"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5c4fe0b-5487-46e6-9b1a-5934dc67268e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/d22876e2-b4d2-4224-b7b5-5d2090fcb74d")
 		(sheetname "Root")
 		(sheetfile "MotionControl.kicad_sch")
@@ -44491,6 +45013,19 @@
 				)
 			)
 		)
+		(property "Part" "1755736"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb030916-2103-4234-8dd0-97988bdce64c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/e19e1734-6914-4d39-b944-245c5f682818/dc1ac4ec-666f-4487-a433-a9eb4485caa3")
 		(sheetname "Steppers")
@@ -46111,7 +46646,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "50mR"
 			(at 0 2.62 90)
 			(layer "F.Fab")
 			(uuid "fba8cea6-db7d-499a-b155-63ec3c238376")
@@ -46161,7 +46696,7 @@
 				)
 			)
 		)
-		(property "Part" "CRA2512-FZ-R075ELF"
+		(property "Part" "CRA2512-FZ-R050ELF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47246,7 +47781,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "50mR"
 			(at 0 2.62 90)
 			(layer "F.Fab")
 			(uuid "c0a24ada-ca38-4600-9344-e65d2f427f62")
@@ -47296,7 +47831,7 @@
 				)
 			)
 		)
-		(property "Part" "CRA2512-FZ-R075ELF"
+		(property "Part" "CRA2512-FZ-R050ELF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47519,6 +48054,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96c3f0ab-fd69-4f79-8e04-c4700628522d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -47808,6 +48356,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a9383c5-b668-40b7-80f9-dcdb9bf5ad8f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -49941,6 +50502,19 @@
 				)
 			)
 		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3be42306-227e-4006-8a8e-72bb1487b40c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55/7a394220-a5b9-415a-8e99-7b96f6f57b74")
 		(sheetname "Stepper Unit2")
 		(sheetfile "tmc.kicad_sch")
@@ -50226,6 +50800,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "1755736"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3dcae05c-d639-4e94-9846-fa7be84c66a0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -51175,6 +51762,19 @@
 				)
 			)
 		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43500e5b-0837-4aff-b67b-de008f713b5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e19e1734-6914-4d39-b944-245c5f682818/a2c9c583-b135-4a99-bb5c-4228354f4c55/e46b6704-ff75-462c-83a3-eb07573907c1")
 		(sheetname "Stepper Unit2")
 		(sheetfile "tmc.kicad_sch")
@@ -51691,6 +52291,19 @@
 				)
 			)
 		)
+		(property "Part" "DMT6016LFDF-7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7affbea5-9451-4e13-95f2-a21c22df2729")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e19e1734-6914-4d39-b944-245c5f682818/8245a6cf-bd82-49d7-a862-cd9b6291d68c/e74ac32a-de2c-416f-bb95-ea1d1c1ee09e")
 		(sheetname "Stepper Unit1")
 		(sheetfile "tmc.kicad_sch")
@@ -52157,7 +52770,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "50mR"
 			(at 0 2.62 90)
 			(layer "F.Fab")
 			(uuid "be33ba82-39e6-47a1-8b53-a46a1cb8ded2")
@@ -52207,7 +52820,7 @@
 				)
 			)
 		)
-		(property "Part" "CRA2512-FZ-R075ELF"
+		(property "Part" "CRA2512-FZ-R050ELF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -52611,7 +53224,7 @@
 				)
 			)
 		)
-		(property "Value" "30R"
+		(property "Value" "220R"
 			(at 0.0253 1.6256 0)
 			(layer "F.Fab")
 			(uuid "3a10d257-c8b2-4adc-b810-9ac8e672bd4c")
@@ -52657,6 +53270,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "MPZ1608S221ATA00"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "064af79e-0ccc-4115-adad-73321456170f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
