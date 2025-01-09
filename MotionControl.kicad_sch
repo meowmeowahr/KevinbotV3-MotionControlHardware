@@ -4436,7 +4436,7 @@
 		(uuid "5be18122-ff03-4f00-bd9f-387bf4191ac7")
 	)
 	(label "D+"
-		(at 82.55 186.69 180)
+		(at 25.4 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4480,7 +4480,7 @@
 		(uuid "a63ae0e5-968e-445b-8769-85717d1af3b5")
 	)
 	(label "D-"
-		(at 82.55 184.15 180)
+		(at 25.4 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5788,7 +5788,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 105.41 187.96 270)
+		(at 48.26 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5797,7 +5797,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d5c764d-a415-4540-9d9b-b4e0bc05c0b7")
 		(property "Reference" "#PWR01"
-			(at 101.6 187.96 0)
+			(at 44.45 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5806,7 +5806,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 109.22 187.9599 90)
+			(at 52.07 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5815,7 +5815,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 187.96 0)
+			(at 48.26 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5824,7 +5824,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 187.96 0)
+			(at 48.26 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5833,7 +5833,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 105.41 187.96 0)
+			(at 48.26 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5848,6 +5848,73 @@
 			(project ""
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 38.1 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1de6892b-f027-4070-acf3-d43c48748f38")
+		(property "Reference" "#PWR023"
+			(at 41.91 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 34.29 154.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 38.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5138a17e-8bf4-4afc-85cc-6ecd6f6c3f58")
+		)
+		(instances
+			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6496,7 +6563,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 82.55 180.34 90)
+		(at 25.4 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6505,7 +6572,7 @@
 		(fields_autoplaced yes)
 		(uuid "6412e31d-14c9-4e02-9759-fd82b14caafc")
 		(property "Reference" "#PWR02"
-			(at 86.36 180.34 0)
+			(at 29.21 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6514,7 +6581,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 78.74 180.3399 90)
+			(at 21.59 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6523,7 +6590,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 180.34 0)
+			(at 25.4 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6532,7 +6599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 180.34 0)
+			(at 25.4 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6541,7 +6608,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 82.55 180.34 0)
+			(at 25.4 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7143,7 +7210,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 105.41 182.88 270)
+		(at 48.26 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7152,7 +7219,7 @@
 		(fields_autoplaced yes)
 		(uuid "89ee0a80-825b-49bb-b711-ba13dd03793d")
 		(property "Reference" "#PWR04"
-			(at 101.6 182.88 0)
+			(at 44.45 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7161,7 +7228,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 109.22 182.8799 90)
+			(at 52.07 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7170,7 +7237,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 182.88 0)
+			(at 48.26 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7179,7 +7246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 182.88 0)
+			(at 48.26 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7188,7 +7255,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 105.41 182.88 0)
+			(at 48.26 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7280,6 +7347,73 @@
 			(project "MotionControl"
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93c3ac69-503d-4bd9-a71d-818e298f3d34")
+		(property "Reference" "#PWR022"
+			(at 31.75 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 157.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea196a7f-504f-47a3-ab9c-b77f69ed9201")
+		)
+		(instances
+			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7562,7 +7696,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 190.5 270)
+		(at 25.4 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7571,7 +7705,7 @@
 		(fields_autoplaced yes)
 		(uuid "a59144c5-297d-4292-8d4b-b08ac1bdb56e")
 		(property "Reference" "#PWR03"
-			(at 76.2 190.5 0)
+			(at 19.05 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7580,7 +7714,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 190.4999 90)
+			(at 21.59 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7589,7 +7723,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 190.5 0)
+			(at 25.4 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7598,7 +7732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 190.5 0)
+			(at 25.4 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7607,7 +7741,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 190.5 0)
+			(at 25.4 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9145,7 +9279,7 @@
 		)
 	)
 	(sheet
-		(at 82.55 176.53)
+		(at 25.4 76.2)
 		(size 22.86 17.78)
 		(fields_autoplaced yes)
 		(stroke
@@ -9157,7 +9291,7 @@
 		)
 		(uuid "a0723af3-05eb-4629-8c24-f2f5fccdefe2")
 		(property "Sheetname" "Power and USB"
-			(at 82.55 175.8184 0)
+			(at 25.4 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9166,7 +9300,7 @@
 			)
 		)
 		(property "Sheetfile" "power_usb.kicad_sch"
-			(at 82.55 194.8946 0)
+			(at 25.4 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9175,7 +9309,7 @@
 			)
 		)
 		(pin "D-" bidirectional
-			(at 82.55 184.15 180)
+			(at 25.4 83.82 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9185,7 +9319,7 @@
 			(uuid "cd02c01c-2d33-4acd-90ab-04a33119c412")
 		)
 		(pin "D+" bidirectional
-			(at 82.55 186.69 180)
+			(at 25.4 86.36 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9195,7 +9329,7 @@
 			(uuid "060d289b-9b55-45e6-a90f-40bed74f74d8")
 		)
 		(pin "GND" passive
-			(at 82.55 190.5 180)
+			(at 25.4 90.17 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9205,7 +9339,7 @@
 			(uuid "10ff1d3a-5d81-4ca8-b7d1-aee4f2456dc6")
 		)
 		(pin "VUSB" output
-			(at 82.55 180.34 180)
+			(at 25.4 80.01 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9215,7 +9349,7 @@
 			(uuid "85d70d47-cc14-4687-9663-4da56de39305")
 		)
 		(pin "VIN" output
-			(at 105.41 182.88 0)
+			(at 48.26 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9225,7 +9359,7 @@
 			(uuid "ed8ad891-482f-423a-9977-2736164433a4")
 		)
 		(pin "3V3" output
-			(at 105.41 187.96 0)
+			(at 48.26 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9238,6 +9372,174 @@
 			(project "MotionControl"
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 130.81)
+		(size 16.51 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ca5d31f6-2267-4ead-a713-bc854360e6b8")
+		(property "Sheetname" "Mag Sensors"
+			(at 38.1 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "spiouts.kicad_sch"
+			(at 38.1 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CSn3" input
+			(at 38.1 149.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b7785abe-6795-4c48-8522-d30dd40579ec")
+		)
+		(pin "MOSI" input
+			(at 38.1 139.7 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3c226b9a-1ca2-4ac2-a121-37847509338e")
+		)
+		(pin "CLK" input
+			(at 38.1 137.16 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1149e221-793f-4deb-816e-99ae966c42bd")
+		)
+		(pin "PWM3" input
+			(at 54.61 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c96eb7fb-f608-4089-ad61-77b851acb9d4")
+		)
+		(pin "GND" input
+			(at 38.1 157.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "19eb37de-9692-4919-9f37-a40de4f3f388")
+		)
+		(pin "VDD" input
+			(at 38.1 154.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8ec10a41-16cf-4642-801e-917efa42b753")
+		)
+		(pin "CSn2" input
+			(at 38.1 147.32 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4203c515-9549-4c85-aef0-4fc9b7516fab")
+		)
+		(pin "PWM2" input
+			(at 54.61 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bf64546a-e56c-4451-9f00-ac523db0be8a")
+		)
+		(pin "PWM1" input
+			(at 54.61 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "940bccff-8399-470a-8b6f-0d69e1969afc")
+		)
+		(pin "MISO" input
+			(at 38.1 142.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "725931c7-6828-4a2f-92e6-9bcc5b3edf31")
+		)
+		(pin "CSn1" input
+			(at 38.1 144.78 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ffb53cd9-0a21-4f68-9f3d-5887649b3ac6")
+		)
+		(pin "CSn4" input
+			(at 38.1 152.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "18c01c42-2e0a-4789-8284-65820f71e9c2")
+		)
+		(pin "PWM4" input
+			(at 54.61 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f33f109c-4947-4c29-a3d3-5ee761fd7eee")
+		)
+		(instances
+			(project "MotionControl"
+				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3"
+					(page "8")
 				)
 			)
 		)

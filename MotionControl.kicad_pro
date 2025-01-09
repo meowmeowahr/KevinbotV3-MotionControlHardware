@@ -615,6 +615,10 @@
     [
       "5cddde6d-e53e-4dd0-b776-c3997587264e",
       "Stepper Unit3"
+    ],
+    [
+      "ca5d31f6-2267-4ead-a713-bc854360e6b8",
+      "Mag Sensors"
     ]
   ],
   "text_variables": {}
