@@ -3,7 +3,7 @@ name: Generate and Deploy InteractiveHtmlBom with MkDocs
 on:
   push:
     branches:
-      - main
+      - master
   workflow_dispatch:
 
 permissions:
