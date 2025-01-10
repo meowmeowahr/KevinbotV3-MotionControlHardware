@@ -36,3 +36,7 @@ fabrication-toolkit-options.json
 
 # Interactive BOM
 ibom.html
+
+# Python
+.venv/
+.python-version
