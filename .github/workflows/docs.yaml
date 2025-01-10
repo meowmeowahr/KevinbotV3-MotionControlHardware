@@ -24,20 +24,13 @@ jobs:
         run: |
           docker build -t kicad-ihbom-env .
 
-      # Start fake X display
-      - name: Start X virtual display
-        run: |
-          Xvfb :99 -screen 0 1024x768x16 &
-          export DISPLAY=:99
-
-      # Generate the InteractiveHtmlBom
+      # Generate ibom with fake x display
       - name: Generate InteractiveHtmlBom
         run: |
           docker run --rm \
-            -e DISPLAY=:99 \
             -v "$(pwd):/workspace" \
             kicad-ihbom-env bash -c \
-            "generate_interactive_bom MotionControl.kicad_pcb"
+            "Xvfb :99 -screen 0 1024x768x16 & && DISPLAY=:99 generate_interactive_bom MotionControl.kicad_pcb"
 
       # Generate MkDocs site
       - name: Build MkDocs site
