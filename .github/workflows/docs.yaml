@@ -32,7 +32,7 @@ jobs:
           docker run --rm \
             -v "$(pwd):/workspace" \
             kicad-ihbom-env bash -c \
-            "Xvfb :99 -screen 0 1024x768x16 & DISPLAY=:99 generate_interactive_bom MotionControl.kicad_pcb --no-browser"
+            "Xvfb :99 -screen 0 1024x768x16 & trap 'DISPLAY=:99 generate_interactive_bom MotionControl.kicad_pcb --no-browser' SIGSEGV"
 
       # Generate MkDocs site
       - name: Build MkDocs site
