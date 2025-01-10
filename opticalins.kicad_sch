@@ -239,18 +239,6 @@
 	)
 	(hierarchical_label "VDD"
 		(shape input)
-		(at 214.63 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1bffe1ef-fe91-49d1-97ac-97d42a552c10")
-	)
-	(hierarchical_label "VDD"
-		(shape input)
 		(at 90.17 72.39 180)
 		(fields_autoplaced yes)
 		(effects
@@ -261,19 +249,7 @@
 		)
 		(uuid "1da3a6d1-7839-4f3d-af64-b0bca551d368")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 90.17 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1e9c508d-6bf4-4b8c-8e2d-77d216d54bfd")
-	)
-	(hierarchical_label "OUT10"
+	(hierarchical_label "OUT7"
 		(shape input)
 		(at 214.63 60.96 180)
 		(fields_autoplaced yes)
@@ -285,7 +261,7 @@
 		)
 		(uuid "24ef3fc1-599d-473d-a49d-f1ed77da984e")
 	)
-	(hierarchical_label "OUT8"
+	(hierarchical_label "OUT6"
 		(shape input)
 		(at 172.72 74.93 180)
 		(fields_autoplaced yes)
@@ -323,30 +299,6 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 219.71 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "35fcba5a-f980-41be-876d-384d66b655a4")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 132.08 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3b647c21-3279-46d3-9d6d-eb7edbcf8c40")
-	)
-	(hierarchical_label "GND"
-		(shape input)
 		(at 172.72 55.88 180)
 		(fields_autoplaced yes)
 		(effects
@@ -371,18 +323,6 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 95.25 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "471bc1a7-1455-4624-8627-34f0a0210b3f")
-	)
-	(hierarchical_label "GND"
-		(shape input)
 		(at 132.08 55.88 180)
 		(fields_autoplaced yes)
 		(effects
@@ -393,43 +333,7 @@
 		)
 		(uuid "4756442e-7bce-448a-8626-6094191f28c9")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 137.16 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4867ae00-20b0-42e1-b4ec-ad9de7f5aaf4")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 172.72 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4bcfb248-4c91-4f30-9d5a-03cfb0581793")
-	)
-	(hierarchical_label "VDD"
-		(shape input)
-		(at 132.08 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4e1090da-2109-455d-b2b6-b260557872b7")
-	)
-	(hierarchical_label "OUT7"
+	(hierarchical_label "OUT5"
 		(shape input)
 		(at 172.72 60.96 180)
 		(fields_autoplaced yes)
@@ -440,18 +344,6 @@
 			(justify right)
 		)
 		(uuid "4e4dbd24-4d60-4808-bd8a-c27f95b38093")
-	)
-	(hierarchical_label "OUT3"
-		(shape input)
-		(at 90.17 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4fdb4439-6bf4-4e2f-8741-96b9e56c820a")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -513,18 +405,6 @@
 		)
 		(uuid "6b8deda6-1760-44a1-836b-e64b894560e3")
 	)
-	(hierarchical_label "VDD"
-		(shape input)
-		(at 90.17 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "702aa48e-5e6b-4b65-aed1-9e4d4e223d50")
-	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 137.16 66.04 180)
@@ -537,31 +417,7 @@
 		)
 		(uuid "82986157-779a-4e66-85dc-f42c55670f61")
 	)
-	(hierarchical_label "OUT9"
-		(shape input)
-		(at 172.72 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "895a7911-04bf-4278-a1b5-6f6f8b622a28")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 177.8 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8fc0d3e3-3f20-40c3-90af-41d966dfd755")
-	)
-	(hierarchical_label "OUT11"
+	(hierarchical_label "OUT8"
 		(shape input)
 		(at 214.63 74.93 180)
 		(fields_autoplaced yes)
@@ -623,18 +479,6 @@
 	)
 	(hierarchical_label "VDD"
 		(shape input)
-		(at 172.72 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a580b5de-3a5e-4046-b4c2-e1852ca98537")
-	)
-	(hierarchical_label "VDD"
-		(shape input)
 		(at 90.17 58.42 180)
 		(fields_autoplaced yes)
 		(effects
@@ -644,18 +488,6 @@
 			(justify right)
 		)
 		(uuid "a72eeafc-cfec-4554-a271-dc3d75fb9654")
-	)
-	(hierarchical_label "OUT6"
-		(shape input)
-		(at 132.08 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a86c23b6-1c4d-48db-8fbb-70cc20f279be")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -669,19 +501,7 @@
 		)
 		(uuid "b269a433-d85f-42bd-b1a6-907b07a69701")
 	)
-	(hierarchical_label "OUT12"
-		(shape input)
-		(at 214.63 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "be5c8b6a-3808-4487-a1f4-ac71f4ab91f6")
-	)
-	(hierarchical_label "OUT5"
+	(hierarchical_label "OUT4"
 		(shape input)
 		(at 132.08 74.93 180)
 		(fields_autoplaced yes)
@@ -705,7 +525,7 @@
 		)
 		(uuid "d2de6790-040b-4555-85b5-593d55ff7859")
 	)
-	(hierarchical_label "OUT4"
+	(hierarchical_label "OUT3"
 		(shape input)
 		(at 132.08 60.96 180)
 		(fields_autoplaced yes)
@@ -716,18 +536,6 @@
 			(justify right)
 		)
 		(uuid "d4c418a7-b1dc-49a7-9251-a4f8abdb0cb3")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 214.63 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d81ffa71-8f53-43d2-9899-7a8c900558cc")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -876,91 +684,6 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
-		(at 137.16 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22f8ebba-2bd8-43a1-9287-0ae8a711bea3")
-		(property "Reference" "J21"
-			(at 139.7 85.4455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03_MountingPin"
-			(at 139.7 87.9855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
-			(at 137.16 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 137.16 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "BM03B-SRSS-TB"
-			(at 137.16 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a2e94bdc-5d38-4619-b3bc-60cdfc819470")
-		)
-		(pin "MP"
-			(uuid "69c5c3ee-b862-44f4-b8d6-2262d332da1a")
-		)
-		(pin "2"
-			(uuid "b8ad64de-84ba-4ca8-acae-eebb619b5ebc")
-		)
-		(pin "1"
-			(uuid "6f502857-3cf7-4118-9ee8-d6790fcdc0c8")
-		)
-		(instances
-			(project "MotionControl"
-				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/5c53c330-1324-4763-be1e-581be1f20023"
-					(reference "J21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
 		(at 95.25 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1046,91 +769,6 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
-		(at 177.8 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ffa7f39-6685-4e73-9574-035569b5471e")
-		(property "Reference" "J24"
-			(at 180.34 85.4455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03_MountingPin"
-			(at 180.34 87.9855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
-			(at 177.8 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 177.8 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "BM03B-SRSS-TB"
-			(at 177.8 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "3996164e-0a3b-4348-828b-d9521fdc3777")
-		)
-		(pin "MP"
-			(uuid "a43316b1-887e-4c66-914b-507711cfb4e9")
-		)
-		(pin "2"
-			(uuid "3688cb70-39d9-44a0-8d5b-ad7554169674")
-		)
-		(pin "1"
-			(uuid "e2219363-a1db-460e-bd24-594bc05a9eb3")
-		)
-		(instances
-			(project "MotionControl"
-				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/5c53c330-1324-4763-be1e-581be1f20023"
-					(reference "J24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
 		(at 219.71 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1209,176 +847,6 @@
 			(project "MotionControl"
 				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/5c53c330-1324-4763-be1e-581be1f20023"
 					(reference "J25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
-		(at 219.71 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9932c925-b2b5-4a5c-98b3-5cbe93dadb8a")
-		(property "Reference" "J27"
-			(at 222.25 85.4455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03_MountingPin"
-			(at 222.25 87.9855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
-			(at 219.71 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 219.71 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "BM03B-SRSS-TB"
-			(at 219.71 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b1cfb319-ef35-462a-beb5-5c5cb40cbf3d")
-		)
-		(pin "MP"
-			(uuid "243a0b9a-df7a-4622-8a95-1e61d5181d6d")
-		)
-		(pin "2"
-			(uuid "1f384e0f-9fb3-439b-99e6-ee125af16bd4")
-		)
-		(pin "1"
-			(uuid "c62baa7e-58af-4d48-a7d2-e211be75169f")
-		)
-		(instances
-			(project "MotionControl"
-				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/5c53c330-1324-4763-be1e-581be1f20023"
-					(reference "J27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
-		(at 95.25 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9cba0155-cf25-43a9-9542-51c4bb20c07a")
-		(property "Reference" "J18"
-			(at 97.79 85.4455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03_MountingPin"
-			(at 97.79 87.9855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
-			(at 95.25 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 95.25 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "BM03B-SRSS-TB"
-			(at 95.25 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "372c3f98-caf3-4b5c-b676-8dad761692cd")
-		)
-		(pin "MP"
-			(uuid "e8350ea2-d1c1-4ca8-b363-e993b98bdedb")
-		)
-		(pin "2"
-			(uuid "7b384e98-71b6-412e-af8a-8791341385a4")
-		)
-		(pin "1"
-			(uuid "8a80b327-08bf-440e-97b5-5f9903063fe1")
-		)
-		(instances
-			(project "MotionControl"
-				(path "/dc671a4c-8f45-455e-9c2f-174befcc2ee3/5c53c330-1324-4763-be1e-581be1f20023"
-					(reference "J18")
 					(unit 1)
 				)
 			)
