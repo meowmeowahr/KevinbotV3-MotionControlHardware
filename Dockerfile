@@ -2,6 +2,7 @@
 FROM ubuntu:22.04
 
 ENV TZ=America/Chicago
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 RUN apt-get update && apt-get install -y software-properties-common
 RUN add-apt-repository --yes ppa:kicad/kicad-8.0-releases
