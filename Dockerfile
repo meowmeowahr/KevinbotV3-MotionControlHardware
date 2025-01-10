@@ -6,6 +6,7 @@ RUN apt-get update && apt-get install -y \
     kicad \
     python3 \
     python3-pip \
+    xvfb \
     && rm -rf /var/lib/apt/lists/*
 
 # Install the InteractiveHtmlBom tool
