@@ -62,4 +62,9 @@ markdown_extensions:
 plugins:
   - search
 
+nav:
+  - index.md
+  - Hardware:
+    - bom.md
+
 repo_url: https://github.com/meowmeowahr/KevinbotV3-MotionControlHardware
