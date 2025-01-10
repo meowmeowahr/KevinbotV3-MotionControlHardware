@@ -1,6 +1,7 @@
 # Dockerfile for setting up the environment
 FROM ubuntu:22.04
 
+RUN apt-get install software-properties-common
 RUN add-apt-repository --yes ppa:kicad/kicad-8.0-releases
 
 # Install required tools and dependencies
