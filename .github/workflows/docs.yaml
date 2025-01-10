@@ -30,7 +30,7 @@ jobs:
           docker run --rm \
             -v "$(pwd):/workspace" \
             kicad-ihbom-env bash -c \
-            "kicad-cli sch export interactive-html-bom /workspace/<path_to_your_project_file>"
+            "generate_interactive_bom MotionControl.kicad_pcb"
 
       # Generate MkDocs site
       - name: Build MkDocs site

@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Install the InteractiveHtmlBom tool
-RUN pip3 install interactive-html-bom
+RUN pip3 install InteractiveHtmlBom
 
 # Set the working directory
 WORKDIR /workspace
