@@ -38,11 +38,11 @@ jobs:
           docker run --rm \
             -v "$(pwd):/workspace" \
             kicad-ihbom-env bash -c \
-            "Xvfb :99 -screen 0 1024x768x16 & trap 'DISPLAY=:99 generate_interactive_bom MotionControl.kicad_pcb --no-browser --dest-dir site/ibom/' SIGSEGV"
+            "Xvfb :99 -screen 0 1024x768x16 & DISPLAY=:99 generate_interactive_bom MotionControl.kicad_pcb --no-browser --dest-dir site/ibom/ || true"
 
       - name: Debug ls
         run: |
-          ls
+          ls site
 
       # Prepare artifacts for GitHub Pages deployment
       - name: Upload artifacts
