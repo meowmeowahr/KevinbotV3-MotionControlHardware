@@ -38,9 +38,9 @@ jobs:
             kicad-ihbom-env bash -c \
             "Xvfb :99 -screen 0 1024x768x16 & \
             export DISPLAY=:99 && \
-            generate_interactive_bom MotionControl.kicad_pcb --no-browser --dest-dir site/ibom/ --name-format motioncontrol --dark-mode --layer-view F --show-fields 'Value,Footprint,Part' --highlight-pin1 selected || true && \
-            generate_interactive_bom OpticalSensor/OpticalSensor.kicad_pcb --no-browser --dest-dir ../site/ibom/ --name-format opticalendstop --dark-mode --layer-view FB --extra-fields 'Value,Footprint,Part' --highlight-pin1 selected || true && \
-            generate_interactive_bom MagneticSensor/MagneticSensor.kicad_pcb --no-browser --dest-dir ../site/ibom/ --name-format magencoder --dark-mode --layer-view FB --extra-fields 'Value,Footprint,Part' --highlight-pin1 selected || true"
+            generate_interactive_bom MotionControl.kicad_pcb --no-browser --dest-dir site/ibom/ --name-format motioncontrol --dark-mode --layer-view F --show-fields 'Value,Footprint,Part,LCSC' --highlight-pin1 selected || true && \
+            generate_interactive_bom OpticalSensor/OpticalSensor.kicad_pcb --no-browser --dest-dir ../site/ibom/ --name-format opticalendstop --dark-mode --layer-view FB --extra-fields 'Value,Footprint,Part,LCSC' --highlight-pin1 selected || true && \
+            generate_interactive_bom MagneticSensor/MagneticSensor.kicad_pcb --no-browser --dest-dir ../site/ibom/ --name-format magencoder --dark-mode --layer-view FB --extra-fields 'Value,Footprint,Part,LCSC' --highlight-pin1 selected || true"
 
       - name: Verify Generated iBOMs
         run: |
