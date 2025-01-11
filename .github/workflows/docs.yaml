@@ -31,18 +31,15 @@ jobs:
           pip install mkdocs mkdocs-material
           mkdocs build
 
-      - name: Launch fake X display
-        run: |
-          Xvfb :99 -screen 0 1024x768x16 &
-
       - name: Generate iBOMs
         run: |
           docker run --rm \
             -v "$(pwd):/workspace" \
             kicad-ihbom-env bash -c \
-            "DISPLAY=:99 generate_interactive_bom MotionControl.kicad_pcb --no-browser --dest-dir site/ibom/ --name-format motioncontrol --dark-mode --layer-view F --show-fields Value,Footprint,Part --highlight-pin1 selected || true && \
-            "DISPLAY=:99 generate_interactive_bom OpticalSensor/OpticalSensor.kicad_pcb --no-browser --dest-dir site/ibom/ --name-format opticalendstop --dark-mode --layer-view F --show-fields Value,Footprint,Part --highlight-pin1 selected  || true && \
-            "DISPLAY=:99 generate_interactive_bom MagneticSensor/MagneticSensor.kicad_pcb --no-browser --dest-dir site/ibom/ --name-format magencoder --dark-mode --layer-view F --show-fields Value,Footprint,Part --highlight-pin1 selected  || true"
+            "Xvfb :99 -screen 0 1024x768x16 & \
+            DISPLAY=:99 generate_interactive_bom MotionControl.kicad_pcb --no-browser --dest-dir site/ibom/ --name-format motioncontrol --dark-mode --layer-view F --show-fields Value,Footprint,Part --highlight-pin1 selected || true && \
+            DISPLAY=:99 generate_interactive_bom OpticalSensor/OpticalSensor.kicad_pcb --no-browser --dest-dir site/ibom/ --name-format opticalendstop --dark-mode --layer-view F --show-fields Value,Footprint,Part --highlight-pin1 selected  || true && \
+            DISPLAY=:99 generate_interactive_bom MagneticSensor/MagneticSensor.kicad_pcb --no-browser --dest-dir site/ibom/ --name-format magencoder --dark-mode --layer-view F --show-fields Value,Footprint,Part --highlight-pin1 selected  || true"
 
       - name: Debug ls
         run: |
