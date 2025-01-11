@@ -42,9 +42,9 @@ jobs:
             generate_interactive_bom OpticalSensor/OpticalSensor.kicad_pcb --no-browser --dest-dir site/ibom/ --name-format opticalendstop --dark-mode --layer-view F --show-fields 'Value,Footprint,Part' --highlight-pin1 selected || true && \
             generate_interactive_bom MagneticSensor/MagneticSensor.kicad_pcb --no-browser --dest-dir site/ibom/ --name-format magencoder --dark-mode --layer-view F --show-fields 'Value,Footprint,Part' --highlight-pin1 selected || true"
 
-      - name: Debug ls
+      - name: Verify Generated iBOMs
         run: |
-          ls site
+          ls site/ibom
 
       # Prepare artifacts for GitHub Pages deployment
       - name: Upload artifacts
